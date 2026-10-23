@@ -1,0 +1,114 @@
+{
+  "id": "world-melbourne-shrine-3d",
+  "title": "澳大利亚 · 战争纪念馆",
+  "publisher": "City of Melbourne",
+  "sourceUrl": "https://data.melbourne.vic.gov.au/explore/dataset/city-of-melbourne-3d-textured-mesh-photomesh-2018/",
+  "archiveUrl": "https://opendatasoft-s3.s3.amazonaws.com/attachments/3DTexturedMesh/CoM_3D_Mesh_2018_OBJ.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "attribution": "© City of Melbourne · Photomesh 2018 · CC BY 4.0",
+  "captureYear": 2018,
+  "sourceCRS": "EPSG:28355+5773",
+  "sourceOrigin": [
+    319000,
+    5813000,
+    0
+  ],
+  "verticalDatum": "EGM96 orthometric height follows the actual archive metadata.xml (EPSG:28355+5773). The web catalogue instead describes AHD; this conflict is retained explicitly rather than asserting survey-grade vertical accuracy.",
+  "geoid": {
+    "url": "https://cdn.proj.org/us_nga_egm96_15.tif",
+    "sha256": "db493027562c9b004d7220fa881f5603adada4e1c5029b933fa7de4547b0e78d"
+  },
+  "conversion": "Lossless byte-identical POSITION/TEXCOORD vertex deduplication with standard glTF indices; original ordered triangles, root transforms and bounds retained. Original JPEG bytes retained; Melbourne restores the original archive JPEG including 8K where available. No quantization, decimation, texture resampling or recompression. Original model directory remains unchanged.",
+  "sourceLevel": 20,
+  "blocks": [
+    "Tile_+017_+008"
+  ],
+  "bounds": [
+    144.9716518218104,
+    -37.83108080485345,
+    144.97747219773797,
+    -37.826464268745916
+  ],
+  "heightRangeEllipsoidal": [
+    15.889990335330367,
+    81.08535422198474
+  ],
+  "center": [
+    144.9735,
+    -37.8305
+  ],
+  "tileCount": 1,
+  "tileBytes": 30514008,
+  "triangleCount": 407125,
+  "textureRGBABytes": 268435456,
+  "sourceFiles": [
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/metadata.xml",
+      "bytes": 299,
+      "sha256": "f922f0efd608da24c15be9abbb85234215cb131129f578eaf5a95f2f7858a27c",
+      "zipCRC32": "d05d8586"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+008/Tile_+017_+008_L20.obj",
+      "bytes": 34966168,
+      "sha256": "ed88c19faa6cfe8ada5225cf4fe29f1f8bd213838995c136a9d5b50a98626e95",
+      "zipCRC32": "462d6af7"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+008/Tile_+017_+008_L20.mtl",
+      "bytes": 222,
+      "sha256": "d104ff0a7cb41b26585c6c8e6abcf8f55b02b1d135bc130f1f6b39bdc9474c4a",
+      "zipCRC32": "71073aa2"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+008/Tile_+017_+008_L20_0.jpg",
+      "bytes": 19652247,
+      "sha256": "739e152643541504811ac290fd6c766b5d053675ee5c52414c687202a8e284e2",
+      "zipCRC32": "57f75fcb"
+    }
+  ],
+  "files": [
+    {
+      "path": "Tile_+017_+008_L20_0.b3dm",
+      "bytes": 30514008,
+      "sha256": "41b4f81cf79f024b5cb1d6072331b7804057209e673431130147646440b6a4e4",
+      "sourceMesh": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+008/Tile_+017_+008_L20.obj",
+      "sourceMaterial": "Tile_+017_+008_L20_0",
+      "triangles": 407125,
+      "photograph": {
+        "source": "Tile_+017_+008_L20_0.jpg",
+        "bytes": 19652247,
+        "sha256": "739e152643541504811ac290fd6c766b5d053675ee5c52414c687202a8e284e2",
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "originalDimensions": [
+          8192,
+          8192
+        ],
+        "originalSHA256": "739e152643541504811ac290fd6c766b5d053675ee5c52414c687202a8e284e2"
+      },
+      "maxFloat32RoundingErrorMetres": 1.5258703797371709e-05,
+      "originalVertexCount": 1221375,
+      "indexedVertexCount": 298746,
+      "attributeTriangleSHA256": "04f743bea731ef09fc2c69bed72cb54653f3e7d60f0e3f01638adc3ea5acdc70",
+      "originalPhotographSHA256": "0f3ba589bddefa27a44941f3e3572b383c71d782b97b7fc478aaf17e595341e6",
+      "photographSHA256": "739e152643541504811ac290fd6c766b5d053675ee5c52414c687202a8e284e2",
+      "photographBytes": 19652247,
+      "photographDimensions": [
+        8192,
+        8192
+      ],
+      "textureRGBABytes": 268435456,
+      "originalSHA256": "246a23da5df7ac7c68fee09a547bc13c4f361ff54fc9e90205591541878db4d5",
+      "originalBytes": 33666864
+    }
+  ],
+  "derivedFrom": "../world-melbourne-shrine/source.json",
+  "originalTileBytes": 33666864,
+  "textureMaxDimension": 8192,
+  "textureResampling": "none",
+  "photographHashMeaning": "photograph.originalSHA256 identifies the archive JPEG; originalPhotographSHA256 identifies the JPEG embedded in the input B3DM. PC photograph.sha256 identifies the unchanged archive JPEG used for display."
+}
