@@ -1,0 +1,3180 @@
+{
+  "id": "world-helsinki-uspenski-3d",
+  "title": "芬兰 · 乌斯别斯基大教堂",
+  "publisher": "City of Helsinki",
+  "sourceUrl": "https://www.hel.fi/en/decision-making/information-on-helsinki/maps-and-geospatial-data/helsinki-3d",
+  "catalogueUrl": "https://hri.fi/data/en_GB/dataset/helsingin-3d-kaupunkimalli",
+  "archiveUrl": "https://3d.hel.ninja/data/mesh/Helsinki3D-MESH_2017_OBJ_2km-250m_ZIP/Helsinki3D_2017_OBJ_672496x2.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "© City of Helsinki · Helsinki 3D 2017 · CC BY 4.0",
+  "captureYear": 2017,
+  "captureYearMeaning": "Official source archive is the 2017 photography mesh; not a live image or the 2025 server modification date.",
+  "sourceCRS": "EPSG:3879+5773",
+  "sourceOrigin": [
+    25490000,
+    6668000,
+    0
+  ],
+  "verticalDatum": "EGM96 orthometric height, as explicitly declared by the downloaded metadata.xml. The general Helsinki website also describes N2000; this conversion follows the actual archive metadata.",
+  "geoid": {
+    "url": "https://cdn.proj.org/us_nga_egm96_15.tif",
+    "sha256": "db493027562c9b004d7220fa881f5603adada4e1c5029b933fa7de4547b0e78d"
+  },
+  "conversion": "Lossless byte-identical POSITION/TEXCOORD vertex deduplication with standard glTF indices; original ordered triangles, root transforms and bounds retained. Original JPEG bytes retained; Melbourne restores the original archive JPEG including 8K where available. No quantization, decimation, texture resampling or recompression. Original model directory remains unchanged.",
+  "sourceLevel": 20,
+  "blocks": [
+    "672497d4"
+  ],
+  "bounds": [
+    24.959469450427484,
+    60.16763188537379,
+    24.9639753000355,
+    60.169877045292125
+  ],
+  "heightRangeEllipsoidal": [
+    17.031580734997988,
+    82.19272661488503
+  ],
+  "center": [
+    24.96087,
+    60.16846
+  ],
+  "frameCenter": [
+    24.96087,
+    60.16846
+  ],
+  "tileCount": 65,
+  "tileBytes": 8830164,
+  "triangleCount": 182861,
+  "sourceFiles": [
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000000.mtl",
+      "bytes": 246,
+      "sha256": "04cbd8868f345c172a37701e0bd592a08eed92d944bcec23b848bc16df2048f6",
+      "zipCRC32": "6cf2876c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000000.obj",
+      "bytes": 275857,
+      "sha256": "f780f0e20a0c47d8675dc724469b5a1ab076a95c2c31183cb1ab731ff95b3648",
+      "zipCRC32": "a10916a8"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000000_0.jpg",
+      "bytes": 88846,
+      "sha256": "941366debf8a140e8ea308118e87e64fb27ad6ea17c673f8c0a090eeb1c9b69b",
+      "zipCRC32": "1c48106f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000010.mtl",
+      "bytes": 246,
+      "sha256": "c050831cb4b7689358a65bb09942e9fe6cff7b4db1f9aeb4c79a7b1c84b2482a",
+      "zipCRC32": "ad42ef22"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000010.obj",
+      "bytes": 401594,
+      "sha256": "42008d060111cd28ac12392ebaab96f551fc32a1e2b7e4be4042ead398ef2ac1",
+      "zipCRC32": "b46e4f58"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000010_0.jpg",
+      "bytes": 97351,
+      "sha256": "12b6272b40a167e1ecfe924c974fa8826bc1cbd33620cb6565ab20230a802560",
+      "zipCRC32": "f762c997"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000020.mtl",
+      "bytes": 246,
+      "sha256": "0661ef71b7bd5a110bb7847112531ac25c0445de2b28ba19d4d3761ea47cb19b",
+      "zipCRC32": "34e351b1"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000020.obj",
+      "bytes": 274558,
+      "sha256": "578c7a5c4cd8403189068a1c13df6aca8404b78580f6c67365ea8986d99c48dc",
+      "zipCRC32": "c9923c47"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000020_0.jpg",
+      "bytes": 75747,
+      "sha256": "2ecb0f9521e0e6fa2b6850605c9360b9ae15d8f231d87246f3327738bceccf9d",
+      "zipCRC32": "5df3b980"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000030.mtl",
+      "bytes": 246,
+      "sha256": "91ff79ec8d8b678746eac7fded557ec8fa3465d3a0044690088c495e1774eea5",
+      "zipCRC32": "f55339ff"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000030.obj",
+      "bytes": 297288,
+      "sha256": "5c1d13cc8122ce68cfcf803c3fcc62d793f5bb0e1daa9ff1d23fe663c2ed3d59",
+      "zipCRC32": "bf4d1dc3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000030_0.jpg",
+      "bytes": 80267,
+      "sha256": "005ec5efbb5ea3a3c0af67ee6074982c5a4634f7998d7cd262b9b55ac4820db8",
+      "zipCRC32": "6a834b09"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000100.mtl",
+      "bytes": 246,
+      "sha256": "9e5ca5f3622c91bec04c15d7bdb43c68dd7f91f3285fb495d46ba4cf5cd05dc5",
+      "zipCRC32": "fd575b93"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000100.obj",
+      "bytes": 285343,
+      "sha256": "27bb07fba256dadeef01ea006865a41428f076b5edf78e33b0e2b5593a45d0bd",
+      "zipCRC32": "9debcf49"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000100_0.jpg",
+      "bytes": 74446,
+      "sha256": "9d3b19213476b1e0bb50713a79724b0730187ff78e2c944f1560d6d4d578f477",
+      "zipCRC32": "92e746a9"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000110.mtl",
+      "bytes": 246,
+      "sha256": "88305cb5eb32bb61990df3a3ccaba90f95f5a165acf864d3e9e39fb741902949",
+      "zipCRC32": "3ce733dd"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000110.obj",
+      "bytes": 290187,
+      "sha256": "ab59b0d8af0b7582fb7dad1e84641f351bfdceee71d7df258f7e667b3403c4b6",
+      "zipCRC32": "ae9b721b"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000110_0.jpg",
+      "bytes": 73053,
+      "sha256": "9de01a2bb6bcf54f75230a52574c0b891c93bab1234e7aa0af4fcd55944a7ab7",
+      "zipCRC32": "de170d51"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000120.mtl",
+      "bytes": 246,
+      "sha256": "0a6008f5ab349fbaa81f97ffc9c1c8dd6629ff8aa8742f6df05c97c668d4bb38",
+      "zipCRC32": "a5468d4e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000120.obj",
+      "bytes": 401183,
+      "sha256": "be9d8c18fd344c96e9bbf9535eeb1cf256351d2c88a14d75a3cceaf0319d99fb",
+      "zipCRC32": "307deb10"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000120_0.jpg",
+      "bytes": 86937,
+      "sha256": "fd80798a2ba7946b3e0fdb60b55b928fb657da68abb3d7e1f314bf04033b1a8b",
+      "zipCRC32": "5bbc5b72"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000130.mtl",
+      "bytes": 246,
+      "sha256": "11c4811c6e6ad743b58e58549aa76fb14c1012362734016c75a49bbb4c255aa4",
+      "zipCRC32": "64f6e500"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000130.obj",
+      "bytes": 308981,
+      "sha256": "54d4a2f8469ec6d76bbbea425109dc8cfdb05463a59269aa4ffeeb2b5cdd0435",
+      "zipCRC32": "1be3d0af"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000130_0.jpg",
+      "bytes": 80940,
+      "sha256": "a299768693ef9fd9fef4ed99261153dd365a73ebf76b2d51a767bba16b69029a",
+      "zipCRC32": "e2862cac"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000200.mtl",
+      "bytes": 246,
+      "sha256": "82b816ab776217ea5dbaea910bbff12f9fa66bdb5efe9cf4c7f701addc1b23af",
+      "zipCRC32": "94c838d3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000200.obj",
+      "bytes": 292205,
+      "sha256": "5bef532203eddd6af718303c738b2503f59fd6327dc873d8dc5fd10fe21f670c",
+      "zipCRC32": "d69006e3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000200_0.jpg",
+      "bytes": 111567,
+      "sha256": "579ef041ced2246a73e774963c2ed5f13749016e5fc6cbeb79de80a9e19780ed",
+      "zipCRC32": "fa3cfc85"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000210.mtl",
+      "bytes": 246,
+      "sha256": "8db13d4d5a2fb934616ab434dc6ee1d7b7f091cb8725ba7181dd71343eb25f7d",
+      "zipCRC32": "5578509d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000210.obj",
+      "bytes": 161171,
+      "sha256": "426a1f342d7cdfd716392758f2265f8d1b88d396ac1ef181b7e1d7e06fa00db4",
+      "zipCRC32": "1082cd0e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000210_0.jpg",
+      "bytes": 73701,
+      "sha256": "069f4497610043d0cd91a8d4fce50291e3bc6a10bb39083634f2fe074e88e4e8",
+      "zipCRC32": "5fe30302"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000220.mtl",
+      "bytes": 246,
+      "sha256": "378e69acebd4fcbd8b7524fb9bc7a9d6823bdefe9a31fe0765b31dd0936c4c39",
+      "zipCRC32": "ccd9ee0e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000220.obj",
+      "bytes": 207060,
+      "sha256": "5c3f936d97183b1edd2574d500b7b86659f269512006889be423034741f4a62a",
+      "zipCRC32": "b3fa88f5"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000220_0.jpg",
+      "bytes": 79077,
+      "sha256": "d90795143782d0bda7e28a803843f049387a6b17c9c1bf9f831ebab5e853754f",
+      "zipCRC32": "034a03a8"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000230.mtl",
+      "bytes": 246,
+      "sha256": "d11d60a850081a68c3b171ffbe84327c6c9574ce5e723a3bf5f537ed01de43e7",
+      "zipCRC32": "0d698640"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000230.obj",
+      "bytes": 197274,
+      "sha256": "ff5a747a9bec7597032cc7a586ee14678882a8531b83bfed73e13bb797f09b49",
+      "zipCRC32": "b16066d3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000230_0.jpg",
+      "bytes": 55191,
+      "sha256": "0a6646db8062bfe2db509c2973e234c3355799ed6ca66e0fe1befa23b966013d",
+      "zipCRC32": "7d926c45"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000240.mtl",
+      "bytes": 246,
+      "sha256": "6f48d2010b1ea1020fc2acb16ddd40b017b2e3141479a5acacb6d414e4a21df2",
+      "zipCRC32": "24eb9569"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000240.obj",
+      "bytes": 127023,
+      "sha256": "714d8f5fdd84d4d4b482890fd10278840bb0a3986b7f3dff8b85d0c2f0cf634c",
+      "zipCRC32": "0295192f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000240_0.jpg",
+      "bytes": 48400,
+      "sha256": "567f83b1844828da082fab5b70628b61303ed229815115009be597820bb4eaca",
+      "zipCRC32": "9f978dfe"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000300.mtl",
+      "bytes": 246,
+      "sha256": "30195a44bb24b1e35be4b5d9c1e280d0e108cae41a0fe62c93b7a1635e60d967",
+      "zipCRC32": "056de42c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000300.obj",
+      "bytes": 316273,
+      "sha256": "35d0afe768635364cdae9eaff1f0446d1bf4baff4244363e3eab01afb50a1004",
+      "zipCRC32": "6ab6fcee"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000300_0.jpg",
+      "bytes": 118876,
+      "sha256": "0b7c2d005316a96f715591176bdab8289716b75fe827592bf0d0c27acc838d70",
+      "zipCRC32": "69d3d50e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000310.mtl",
+      "bytes": 246,
+      "sha256": "065987c124469bdb8f1878588ae8e1b7b8f6a9479fd84f9a903f1f49f96202e0",
+      "zipCRC32": "c4dd8c62"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000310.obj",
+      "bytes": 338521,
+      "sha256": "0af573e9c7bb7efa1131f90af81cb1f6ab4e50beadf1a9877d2c2fc57b3776d1",
+      "zipCRC32": "34ac20bb"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000310_0.jpg",
+      "bytes": 118479,
+      "sha256": "d6aaa803c4719c4dbccaa7ce05223551091ee9b1109f96954fadd919849fc946",
+      "zipCRC32": "60ed0e5f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000320.mtl",
+      "bytes": 246,
+      "sha256": "00f685f3525e8965a7adfcee8e7debab77b5575bf02580359143a02a51239ebb",
+      "zipCRC32": "5d7c32f1"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000320.obj",
+      "bytes": 420302,
+      "sha256": "d6b77914ca6230b1c2692c58a06d5261f7efee8b358173cc6a3b13ff6b69c0c1",
+      "zipCRC32": "fbc3693c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000320_0.jpg",
+      "bytes": 117774,
+      "sha256": "9a733ff7d2b646bc5ec377886d206c07a65f8e3b1a269978d92c958d83283324",
+      "zipCRC32": "1656c8c8"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000330.mtl",
+      "bytes": 246,
+      "sha256": "0bbf9f77d980941178a82a218fb8cfacd0d733b3a21b1e58472bff27b3472318",
+      "zipCRC32": "9ccc5abf"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000330.obj",
+      "bytes": 344031,
+      "sha256": "62711a7fce343e476c5b9499e7cfc83ef9e2ba4621411f2d68e202e9258ef5a3",
+      "zipCRC32": "19498bc3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0000330_0.jpg",
+      "bytes": 110421,
+      "sha256": "d31991e4780eb07c09301e5c2b594ee756d52d5dd5861816cb458b2f9ab8c2d8",
+      "zipCRC32": "2094bb2f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001000.mtl",
+      "bytes": 246,
+      "sha256": "3e1aa51bf99215697454eceb8a4f9bfe961d89c408dda0d74b6ac310b292707d",
+      "zipCRC32": "4161cd3d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001000.obj",
+      "bytes": 249899,
+      "sha256": "83b8dcf1574015852083959523ff64f00447bb6a89febfe578e9756c3816dae6",
+      "zipCRC32": "cf938740"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001000_0.jpg",
+      "bytes": 62813,
+      "sha256": "b71402d3c1b8f8b1e8984ed2b1df9f5fd13fb2586b4a7e2f49095f5aedfc4825",
+      "zipCRC32": "ead2f0cb"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001010.mtl",
+      "bytes": 246,
+      "sha256": "72270f78f0fb06e0e4ecaca3ca94f1585aa252e44674ab2d9e3eb6ea2ef2f368",
+      "zipCRC32": "80d1a573"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001010.obj",
+      "bytes": 211658,
+      "sha256": "474ccda560cb17a3564f13a0649d5ef1ff330e108248b0b3ab89ff09e95e351c",
+      "zipCRC32": "4651172c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001010_0.jpg",
+      "bytes": 81088,
+      "sha256": "b7efcf0fb1adeca64d843c8f647bffc9033f6573df20603e62fa5b72fa2ded5b",
+      "zipCRC32": "8eb79b39"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001020.mtl",
+      "bytes": 246,
+      "sha256": "1fa409e4a437405c677e9a4bc6980cd60f32e7e1fa9ed97376dcf3f1656f61b6",
+      "zipCRC32": "19701be0"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001020.obj",
+      "bytes": 514886,
+      "sha256": "c28b0708c041e3e4c92aac3f7e311dc0978b040a8feef1f9dc56821e859d5e56",
+      "zipCRC32": "80554a2b"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001020_0.jpg",
+      "bytes": 102127,
+      "sha256": "6e251745d68b63cda7beb5b47426b8cca86c7a7a4aec29d30b7244935c26e8d1",
+      "zipCRC32": "12444f6f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001030.mtl",
+      "bytes": 246,
+      "sha256": "9c440ab807fc103479a2d63f91f066c8da1df2c3fa23230ade5f0acb003d75ba",
+      "zipCRC32": "d8c073ae"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001030.obj",
+      "bytes": 259269,
+      "sha256": "42ad9ab7e6bd24153539168c44ed896f11b982cd6bc8666e2db9f709d27b953e",
+      "zipCRC32": "6a636b88"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001030_0.jpg",
+      "bytes": 75615,
+      "sha256": "d6b5c890d5ff74895cb20486e4cb8a86a67ee4c7e4217f3a5e084d539cae6c47",
+      "zipCRC32": "95b16444"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001100.mtl",
+      "bytes": 246,
+      "sha256": "872810df07d8c2b6ca1a62167bf95ad3ffa422fd384cb2fc1dc9685655189f7a",
+      "zipCRC32": "d0c411c2"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001100.obj",
+      "bytes": 277560,
+      "sha256": "47865c991342d5aa55a3b1fff699840fa1368d4f82f09ee4fc6f9eea75c0a8df",
+      "zipCRC32": "10b3cc00"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001100_0.jpg",
+      "bytes": 90804,
+      "sha256": "f39f68cabba803adbaf80ce8b80e9213f6b1e4ba4e47acee54ad1b3ee1f4c84e",
+      "zipCRC32": "13cbd530"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001110.mtl",
+      "bytes": 246,
+      "sha256": "62a7ce726cef17df5968f4d8f3c8bdbc1f8decd371275f0e559945fc22e903b3",
+      "zipCRC32": "1174798c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001110.obj",
+      "bytes": 362570,
+      "sha256": "4839feaca9a24fc99c5c63be8750072426af0b38179059fe5eecb012b02e0e71",
+      "zipCRC32": "0f48c595"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001110_0.jpg",
+      "bytes": 112796,
+      "sha256": "41ef7241ac28ad4088c95ed7f60b4a43581d57fe3ea2d74f3052903f94693f8c",
+      "zipCRC32": "4eba6e15"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001120.mtl",
+      "bytes": 246,
+      "sha256": "354828fb94e48a9c7b3993bc2564a989c3f30015c5fd09e9ce58ef7c94eaa854",
+      "zipCRC32": "88d5c71f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001120.obj",
+      "bytes": 344325,
+      "sha256": "c74d24afc8b271b0278357ae99ef7a3ccfe8e2992735fa09ac9a93597345280c",
+      "zipCRC32": "ac8cca54"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001120_0.jpg",
+      "bytes": 118681,
+      "sha256": "7376c8387f0aac81e2cf90fd39fb0fa7dbb3040a6156200eec9ce534bf9a4c60",
+      "zipCRC32": "080b8e3d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001130.mtl",
+      "bytes": 246,
+      "sha256": "9c87e59a8db5984fd0c38044a430fab7bf930fd79b8cad92d2cca3e0f3ee9162",
+      "zipCRC32": "4965af51"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001130.obj",
+      "bytes": 276772,
+      "sha256": "baff98cb536b50cc3b833cca79c7f3aac12362e2dbfda9cff9bbdddd5cfafd03",
+      "zipCRC32": "9a431c16"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001130_0.jpg",
+      "bytes": 119423,
+      "sha256": "7f83b0085c134101fbdfff664d6effc8df71e8375e6cf68778eb6c5162626dab",
+      "zipCRC32": "daaaa872"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001200.mtl",
+      "bytes": 246,
+      "sha256": "c19e7904d0d6256cadd819853766ca1b8f421378d64b16f8a766c6caf0bd02f7",
+      "zipCRC32": "b95b7282"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001200.obj",
+      "bytes": 325863,
+      "sha256": "6de409f4acdb0b815f0d85e1f212d79424a727c9e1563b1e427b6c25402e64ba",
+      "zipCRC32": "5801a01e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001200_0.jpg",
+      "bytes": 108354,
+      "sha256": "5d8bb1cc0efe28f9a29a4701760b4773a84354907a82a53a2c7a94f7736b5f74",
+      "zipCRC32": "9e1e660e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001210.mtl",
+      "bytes": 246,
+      "sha256": "89d2b51cb72d3bb0b06997b85fccfb07be36c3d3310a5a18256a74678f3c1b30",
+      "zipCRC32": "78eb1acc"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001210.obj",
+      "bytes": 279973,
+      "sha256": "446e224709200246fb84859db31a5b200fa988797750ebea102c72cad5defad5",
+      "zipCRC32": "98d409bb"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001210_0.jpg",
+      "bytes": 111539,
+      "sha256": "b5d50b79cb0520283b6cba543dc79e35dd93e9fbacb8a87af243bf62120b3214",
+      "zipCRC32": "172d5323"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001220.mtl",
+      "bytes": 246,
+      "sha256": "20b3182974b6653769336589f2d7bd3dc4a2a745694c4405bedfd4cda04618c4",
+      "zipCRC32": "e14aa45f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001220.obj",
+      "bytes": 324743,
+      "sha256": "6021b9870e34aad981501707ca6337666863405b6963028104c9ea1f64d55693",
+      "zipCRC32": "b76a75dd"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001220_0.jpg",
+      "bytes": 98417,
+      "sha256": "d809c8ccbb073d1f4f7935d1c302d97f4dfd141a71f3d47f725176161ecc49aa",
+      "zipCRC32": "dc288672"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001230.mtl",
+      "bytes": 246,
+      "sha256": "96e401da19f1733483cb8a690f124df008026ed5398e5af93e27167fdf08ce1a",
+      "zipCRC32": "20facc11"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001230.obj",
+      "bytes": 323456,
+      "sha256": "748ad6a83a9cb7af4de737eb4ef34af649b4ff396f778a10f0ac0fd85800d1b7",
+      "zipCRC32": "1f29aa41"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001230_0.jpg",
+      "bytes": 101448,
+      "sha256": "9e7b01e34a7e8c41e249c213df5ea013c9491f6ce6cc283a5f9b8a782c235a85",
+      "zipCRC32": "53eda19b"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001300.mtl",
+      "bytes": 246,
+      "sha256": "2861f6ccf87be9c056c6c8823b5f1f7f4b4163d62af9d47ebbf6e73f89077790",
+      "zipCRC32": "28feae7d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001300.obj",
+      "bytes": 163777,
+      "sha256": "77720eadc31be4cf88cbacfa9e88cf080218895a516f3d354a3cfa5738967ec2",
+      "zipCRC32": "7619f807"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001300_0.jpg",
+      "bytes": 77137,
+      "sha256": "06317f1b80501a351ea4b50d938ac175db03294989ab3cb111780c09b169967e",
+      "zipCRC32": "a78d32b6"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001310.mtl",
+      "bytes": 246,
+      "sha256": "560a0140895cae27b73d42ecf9a3257eb855ebd4a871ccf43634ec23cc5c8f8b",
+      "zipCRC32": "e94ec633"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001310.obj",
+      "bytes": 259926,
+      "sha256": "abefb71ed20f560121b4b57f4c0d69985496c2fa28ab5ba8e662a1c7f0ed1c3c",
+      "zipCRC32": "e5ccd9e7"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001310_0.jpg",
+      "bytes": 100671,
+      "sha256": "e2a2c2fad10b4c76bbc2aa0894dbc336e6ee7faa9cbb26be11578d2483bcce3e",
+      "zipCRC32": "94b53cf3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001320.mtl",
+      "bytes": 246,
+      "sha256": "3b43fcc5a4f441c9553df7dc865ac669495559a59590147d94e83311456b4ac8",
+      "zipCRC32": "70ef78a0"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001320.obj",
+      "bytes": 314970,
+      "sha256": "b0ef3e3fdbbe66630cd26fdc79c738387e36c36a15a0d3825216aeacf40c4e7e",
+      "zipCRC32": "7293329e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001320_0.jpg",
+      "bytes": 104966,
+      "sha256": "de3c625cf16b30d2f88153b1a74ecee467fbd821a49f5d216e25bec35a5c7e58",
+      "zipCRC32": "6d257737"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001330.mtl",
+      "bytes": 246,
+      "sha256": "c197d57bf21a0019137df101df215c087015d4201392be055904153d2b50abe7",
+      "zipCRC32": "b15f10ee"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001330.obj",
+      "bytes": 194639,
+      "sha256": "b2ff44f1bf577dcc0d27af48af1934779f8cb077888fd7cf2558ecc4e2b904d3",
+      "zipCRC32": "07d643ed"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0001330_0.jpg",
+      "bytes": 78375,
+      "sha256": "eb838cb009e232b7c6590a09d6ec97bb82d66d2e507431c82ea1270d4f6c8359",
+      "zipCRC32": "64f9e2e8"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002000.mtl",
+      "bytes": 246,
+      "sha256": "3c632cfd737f68917834337f9fcc789dd8c14954529a7718143305485341ba15",
+      "zipCRC32": "37d413ce"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002000.obj",
+      "bytes": 144720,
+      "sha256": "4590ad59422573fa962407242455c88efaeed57cba5d3d83556c9a6b6f1d5be7",
+      "zipCRC32": "55198dc1"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002000_0.jpg",
+      "bytes": 68632,
+      "sha256": "96220bf0a3dc97e3687e63b12230ab77bbcda655af3ff10ea0338c50331bf081",
+      "zipCRC32": "9c37bde3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002010.mtl",
+      "bytes": 246,
+      "sha256": "0d4f6363ece3dfa9ec4b320c411d0828424e2f12dead2fdaff051a02a1fbd948",
+      "zipCRC32": "f6647b80"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002010.obj",
+      "bytes": 179957,
+      "sha256": "666766ebf7e3ac6b9af548488a0a37a85d87a207f765bdd94b63346830d69aab",
+      "zipCRC32": "3acbf329"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002010_0.jpg",
+      "bytes": 84630,
+      "sha256": "d15b123191d2824d6ee53499e220ff6d344e3b7d53f1edf5e41ec38d70b905f6",
+      "zipCRC32": "4df8da9f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002020.mtl",
+      "bytes": 246,
+      "sha256": "6ca5edfc765f373a336167873b1bc5ef009242d87ab52cb84c63a403ba5d0f96",
+      "zipCRC32": "6fc5c513"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002020.obj",
+      "bytes": 163395,
+      "sha256": "4ab3e070ac94065ea2a6357822644e344542e56011b29f852f33d30c2e86c0d2",
+      "zipCRC32": "9d76bb4a"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002020_0.jpg",
+      "bytes": 68577,
+      "sha256": "a9fd4f0b8f54c098817c7826fd1803802b055b9e603138c81eb5320019aaa40a",
+      "zipCRC32": "6f936cd2"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002030.mtl",
+      "bytes": 246,
+      "sha256": "3df006424fb417007b25292cbe7271f99b6eec8ee960a3dc4af170921633bf2d",
+      "zipCRC32": "ae75ad5d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002030.obj",
+      "bytes": 102165,
+      "sha256": "1e6158141c0c5d4784078c2c03d3d0f81dea8c2c8c3f7efc707f262f56f72510",
+      "zipCRC32": "009d4f11"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002030_0.jpg",
+      "bytes": 42336,
+      "sha256": "5742a237957504a2b3707b818282f482ec99fb1be8ea4652c96f553aff0de1f8",
+      "zipCRC32": "77ad89ad"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002100.mtl",
+      "bytes": 246,
+      "sha256": "7045585e6977827378bd23a12632aa239c35774a761ba31529d14975371126f0",
+      "zipCRC32": "a671cf31"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002100.obj",
+      "bytes": 237331,
+      "sha256": "25d83fd7bbe081c0f9589a51fd2c9802694c805c40b500cd217a3f3cb808f274",
+      "zipCRC32": "f16526bc"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002100_0.jpg",
+      "bytes": 80692,
+      "sha256": "bdde39d702160d61c77d4b2bb4e6f57f8b833b799059ba777431f5684e6e1db2",
+      "zipCRC32": "2f03841d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002110.mtl",
+      "bytes": 246,
+      "sha256": "40d38d8e85fe44a3531f53628641facad4fcb40c427cad59c16325f0088dab30",
+      "zipCRC32": "67c1a77f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002110.obj",
+      "bytes": 241641,
+      "sha256": "18b51cc9e058525de697b7bcbf56a58599a7d8286cd4e04d922ddbb3d6acbf88",
+      "zipCRC32": "6760b3cd"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002110_0.jpg",
+      "bytes": 95946,
+      "sha256": "798ba1a5d04443cb3309785c3c30b1cc96f327f82f8446821cc7964e922bf8f3",
+      "zipCRC32": "8e7c6cce"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002120.mtl",
+      "bytes": 246,
+      "sha256": "cc26134d82f39a1f09393f38f869635c262612ce18de1cdfe1f0dd721ecc5d5c",
+      "zipCRC32": "fe6019ec"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002120.obj",
+      "bytes": 121006,
+      "sha256": "b62d3b3bd1bfcc9ed9dc8ec046c40ab585e0af2edd7150086a8fc72cf2f93cd5",
+      "zipCRC32": "672cd3ce"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002120_0.jpg",
+      "bytes": 52383,
+      "sha256": "e7f930381e31b3105c03a47026fb021cc856bb209ecb394cc037f89039267e92",
+      "zipCRC32": "b8dc8a03"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002130.mtl",
+      "bytes": 246,
+      "sha256": "c45f08e9a192757e09f663a71a8f79d711caf6955d11e6937c3189b82eddf8ab",
+      "zipCRC32": "3fd071a2"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002130.obj",
+      "bytes": 151529,
+      "sha256": "42ac6c89cb61251544d2a49b8ba576e70e5f036e9497d70ebae7710057c47d01",
+      "zipCRC32": "67425375"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002130_0.jpg",
+      "bytes": 71338,
+      "sha256": "48605c480d97245821260b7add2abb76fcb298059460ab5f79b8b4739cc43156",
+      "zipCRC32": "e28b4d3d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002200.mtl",
+      "bytes": 246,
+      "sha256": "10322131a305a3ab05b9d60a30e6b99840d1a1ac9fbd70380fecd601754225c1",
+      "zipCRC32": "cfeeac71"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002200.obj",
+      "bytes": 12887,
+      "sha256": "af90e8f700f3f30443ff36f9a013e69143b2f5c7bdafd0d34f586910de2b0dd7",
+      "zipCRC32": "59d3dece"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002200_0.jpg",
+      "bytes": 19610,
+      "sha256": "e2c721e47a0cfe43575af9cde05bdac7e10cd6de8644ca06c2fbe54b23795bb5",
+      "zipCRC32": "59359ded"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002210.mtl",
+      "bytes": 246,
+      "sha256": "1c763676cb3d4fac074f8ad8061bbd2a71e685c05dd5e2b35eb2d0cbf8dcc2d1",
+      "zipCRC32": "0e5ec43f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002210.obj",
+      "bytes": 4786,
+      "sha256": "4e4b3bfd5ca1c58389069bfc5140eb30dfab65afa7cfdcd85208a3848732a2b0",
+      "zipCRC32": "ae00bcae"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002210_0.jpg",
+      "bytes": 11418,
+      "sha256": "4c778fc9931696271a56e8899ebf5e490de080b7c881afdd8aa5b330c294990f",
+      "zipCRC32": "e9db7bf3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002220.mtl",
+      "bytes": 246,
+      "sha256": "617fda9c882666928c681fc49f51625003feabe5248be20b23dd7f70d9dc28fd",
+      "zipCRC32": "97ff7aac"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002220.obj",
+      "bytes": 89301,
+      "sha256": "b763070f663c0d171379e86a459a28c80ae6491e7253e3e39000ad99448a01ef",
+      "zipCRC32": "0db56647"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002220_0.jpg",
+      "bytes": 54208,
+      "sha256": "9bce08fbd82546d3695dbc73b7337d743b93306ba3546e9d1a90cfcb92fc216c",
+      "zipCRC32": "0e05e9aa"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002230.mtl",
+      "bytes": 246,
+      "sha256": "c7708e6074e65e2e29d2bec882b23ac9affc36692e6eb30e95bddb4443be5d0e",
+      "zipCRC32": "564f12e2"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002230.obj",
+      "bytes": 25471,
+      "sha256": "6af05dbd8d54d8940c273f5357400e4a427b82819e5c98bca92a6a62a62287b6",
+      "zipCRC32": "7459e3a2"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002230_0.jpg",
+      "bytes": 25143,
+      "sha256": "261354eb3ca17c79b134dfcb738d99b773dd08631b256c74af6cc323e39f4634",
+      "zipCRC32": "c3e308d7"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002300.mtl",
+      "bytes": 246,
+      "sha256": "f6357d77fe7c1bc35a9ae99666e8f198090091f92a8ae3141f87c96f5a080cb4",
+      "zipCRC32": "5e4b708e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002300.obj",
+      "bytes": 33111,
+      "sha256": "530692f407c4b735387f3acae717000e9972d0a1d9690a1e0b52f2ad71b0ac82",
+      "zipCRC32": "f93b3f58"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002300_0.jpg",
+      "bytes": 27403,
+      "sha256": "b39d84eef487c65bc3bd17a002ce61ffe3a27f6b23f4295a70734f6f65973f4b",
+      "zipCRC32": "4bdb371a"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002310.mtl",
+      "bytes": 246,
+      "sha256": "0f07390b9b6706f03548c4a19679483dbbcaaaf2d151d785469bbc5f0e2023fb",
+      "zipCRC32": "9ffb18c0"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002310.obj",
+      "bytes": 24715,
+      "sha256": "e24f059bba76a518eb6452b7a963c1fb444a5f4def719a0897b1789c93c03615",
+      "zipCRC32": "1383c817"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002310_0.jpg",
+      "bytes": 24707,
+      "sha256": "4aa985beaafe39bda6fbb8273a1ce385d5e13823d9e3fe3883b1e9bb9de2ced9",
+      "zipCRC32": "17c319ca"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002320.mtl",
+      "bytes": 246,
+      "sha256": "650b05562ed74f582866f052757c27902c773889379f3e8133340ae6c12f719e",
+      "zipCRC32": "065aa653"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002320.obj",
+      "bytes": 2678,
+      "sha256": "991d6f457f29c85eb2a523a64116cec051e3a7e04daea3419babd7404d211aff",
+      "zipCRC32": "a2e15fb1"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002320_0.jpg",
+      "bytes": 30563,
+      "sha256": "24431491b20723c090787678b2dd944405f00a1b519f240d74e49b756a5562c9",
+      "zipCRC32": "c4251502"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002330.mtl",
+      "bytes": 246,
+      "sha256": "a77191249090b97329c44ecbbd269d9eec67d2017e7ccb92164c9083190d47f0",
+      "zipCRC32": "c7eace1d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002330.obj",
+      "bytes": 63633,
+      "sha256": "ba7ed905c68d885dcf5cacfb6f718c3cca8596f9c835d05ab12d2b603220272d",
+      "zipCRC32": "9a3babb3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0002330_0.jpg",
+      "bytes": 43910,
+      "sha256": "473a54f144c694ecd15fe8667e872a50c4398615e3833b3dddac043f394f8d1e",
+      "zipCRC32": "cf88d8d9"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003000.mtl",
+      "bytes": 246,
+      "sha256": "ad60af2c4884f9a1246b87875ea400f501eaf177d7e83f6208efdf7f44f1f617",
+      "zipCRC32": "1a47599f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003000.obj",
+      "bytes": 266469,
+      "sha256": "57318b0ca9561a21cddc806b3b5693787841b0a8157373ad1397134260111093",
+      "zipCRC32": "307a8f29"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003000_0.jpg",
+      "bytes": 93696,
+      "sha256": "ed76273e73aebfd81290a0c17ecf7b6d3cef5014a47337914048c28bc4530752",
+      "zipCRC32": "75cb16f7"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003010.mtl",
+      "bytes": 246,
+      "sha256": "9e720ff156e9beb1df85c4db96ab41351d35ed89065c5569969b0a2e1f117962",
+      "zipCRC32": "dbf731d1"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003010.obj",
+      "bytes": 313081,
+      "sha256": "bfa3fbf59263a830056f9eff51988f13e0f36f4f0f5bcde32da057b7ed6a2393",
+      "zipCRC32": "cf3bcf29"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003010_0.jpg",
+      "bytes": 115848,
+      "sha256": "fe0f60e5b22bc5bd6b3b1a80205ed5ed3923dcde52054338c943d30a01d119f1",
+      "zipCRC32": "8821aece"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003020.mtl",
+      "bytes": 246,
+      "sha256": "c2ef5f83d00519ed5d1134ff223b9cf1a30f38c25c79f910fd2d1eccc395f8d3",
+      "zipCRC32": "42568f42"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003020.obj",
+      "bytes": 166968,
+      "sha256": "92a803773529a7aa40051e3124466753671dcb0e297653fb904ee945f4179651",
+      "zipCRC32": "82be9142"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003020_0.jpg",
+      "bytes": 69576,
+      "sha256": "413ed34896e4dd65a8fd6a1de474837611ec99d73d69be69028d5f435eb5802b",
+      "zipCRC32": "f285dcc3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003030.mtl",
+      "bytes": 246,
+      "sha256": "9918a3013fd21595f51886deed46e11fcad46254578110e5193fafaf0c200942",
+      "zipCRC32": "83e6e70c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003030.obj",
+      "bytes": 135291,
+      "sha256": "74fbdbd642609ea9e7d77b9f325a583a2b1b88acf4d9f8df83036ee92dcec131",
+      "zipCRC32": "c4bea32f"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003030_0.jpg",
+      "bytes": 52348,
+      "sha256": "016e3a2ebe4b196f76e9b444fe25d0377687a16ecdc9b671f6ae32d3e83063b0",
+      "zipCRC32": "63d7fa1d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003100.mtl",
+      "bytes": 246,
+      "sha256": "b2226f84149f69f0fd30e09aca5572dd6081c01b671534845f93387b5d9eff5c",
+      "zipCRC32": "8be28560"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003100.obj",
+      "bytes": 342520,
+      "sha256": "b9417c97718fb4fdfa6b6387e1ea9dae97f3ad2ad931a2dd727e7938e8e0349c",
+      "zipCRC32": "cb38a188"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003100_0.jpg",
+      "bytes": 106625,
+      "sha256": "152e2b3c8edfade55c8d14063b23e716ec446da5895e14554f653bfbf44f767e",
+      "zipCRC32": "5df9a900"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003110.mtl",
+      "bytes": 246,
+      "sha256": "db6bfc29d0444f0e50e2a7f3293ac3088d7e29e302497e1326f324669f99f94e",
+      "zipCRC32": "4a52ed2e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003110.obj",
+      "bytes": 130722,
+      "sha256": "d3c70339fd2c8b7707747df00ae3cec8ac2b062b6a9570f580d915a26be68dd8",
+      "zipCRC32": "6532d126"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003110_0.jpg",
+      "bytes": 48382,
+      "sha256": "c219248210c458be8db7099a088c29449bc9817ac2e31685b3105a5192384729",
+      "zipCRC32": "a020a5c8"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003120.mtl",
+      "bytes": 246,
+      "sha256": "57bf6d9e11331c5aecc7a250ba9df4ba03ff3ffd5c3a189d9c95f0b937c95139",
+      "zipCRC32": "d3f353bd"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003120.obj",
+      "bytes": 213155,
+      "sha256": "105fcf10f2271d7a35ed81a7c18a54b5c7bbce20bf4acb4a1d570a4d60a04442",
+      "zipCRC32": "2337c3d0"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003120_0.jpg",
+      "bytes": 71758,
+      "sha256": "7c6279bb264478984c9651411b25aac8c994bdb8af1a31303a94af9c52dfcd6a",
+      "zipCRC32": "6fcff7e9"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003130.mtl",
+      "bytes": 246,
+      "sha256": "18dbab7af0c8d82a76e9b753f1f7a56cf0ac81ab60a283ae2c7e04f3d8e377f2",
+      "zipCRC32": "12433bf3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003130.obj",
+      "bytes": 173514,
+      "sha256": "2556e7295e6c217ca7ec981b05b1d8bf8f7ce42a724bbd29ced27d43b7b07a53",
+      "zipCRC32": "3d9e8840"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003130_0.jpg",
+      "bytes": 63023,
+      "sha256": "d108b6af8b23e3def014a13fde55a2d91161d7b5185d9e15aa727a51a30bfa3f",
+      "zipCRC32": "2604430d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003200.mtl",
+      "bytes": 246,
+      "sha256": "ce5784f05a8c403b202d528fddf717ba0977f065862e48fb3cd2a9205516be82",
+      "zipCRC32": "e27de620"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003200.obj",
+      "bytes": 42103,
+      "sha256": "c360109d78c3f8387bb980d7ecc41f1f55e8cdf51ee479401b4047660bf3ca17",
+      "zipCRC32": "8055c421"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003200_0.jpg",
+      "bytes": 26179,
+      "sha256": "e4c0b5fc35420ab53196920a5d4fd9cc5d14905a53f04195d84c0b7010457d84",
+      "zipCRC32": "c3c09f54"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003210.mtl",
+      "bytes": 246,
+      "sha256": "ec7fbcd3a0922e15d02a0ee5d5285f7eb955a89c605b60b6368306d318229843",
+      "zipCRC32": "23cd8e6e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003210.obj",
+      "bytes": 51995,
+      "sha256": "950cf2267efe915efcec8bb176cf8357e54d1099663591f72c06fa28be395d90",
+      "zipCRC32": "829a1bab"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003210_0.jpg",
+      "bytes": 24476,
+      "sha256": "1173f7bec3d7dae9106f402d3a041e8d75d6c0431f97c0f64e1a7a2a60a7baa7",
+      "zipCRC32": "c4bc3370"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003220.mtl",
+      "bytes": 246,
+      "sha256": "271dfd3d0d38352e6d9b8dba55f443965687b3b0b9b5f03640f6f0d705992956",
+      "zipCRC32": "ba6c30fd"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003220.obj",
+      "bytes": 102717,
+      "sha256": "8b87e55c14c94a8ae3689df5b947e322b47eb6f3ecad6d115e89e5112343a58e",
+      "zipCRC32": "408adcb0"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003220_0.jpg",
+      "bytes": 59676,
+      "sha256": "0542f53407dd787977ffd510d8df1dcf0300611a6e82f7430832732d2fa8280d",
+      "zipCRC32": "89848731"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003230.mtl",
+      "bytes": 246,
+      "sha256": "56ba7a3334d2185084025029d3bc3e64a09af430c5115c7d1564aec45ee3bf4d",
+      "zipCRC32": "7bdc58b3"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003230.obj",
+      "bytes": 96956,
+      "sha256": "5c70d8d7e21b6c76106cf3dfcedbccacf5008569eb92e2c140b624c0bf581c4c",
+      "zipCRC32": "2d2f0e79"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003230_0.jpg",
+      "bytes": 53923,
+      "sha256": "32da636f8e65eeb503444161d8d35fdf9906f5f38ceeb6ee821badcdaf7e510b",
+      "zipCRC32": "4684dd7e"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003300.mtl",
+      "bytes": 246,
+      "sha256": "2e04c4175a5b58fa358214393b24ad4f94b17e6ffe319282572fceab0fa7de4f",
+      "zipCRC32": "73d83adf"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003300.obj",
+      "bytes": 83414,
+      "sha256": "35d58852149d6194f849ab12ff51c7c39894230f8c9872ad718e5d553ea4de93",
+      "zipCRC32": "bbc58196"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003300_0.jpg",
+      "bytes": 32186,
+      "sha256": "302e5dcc6b1ccffa6d44a83f1057d0f00d83d3180d0276f41d4099650b8af14d",
+      "zipCRC32": "72adc60d"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003310.mtl",
+      "bytes": 246,
+      "sha256": "38e00ede1e265a31effa3bd274f3ef4255dcf78c8b103f2dd1f3d751c3330df4",
+      "zipCRC32": "b2685291"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003310.obj",
+      "bytes": 203357,
+      "sha256": "0cebe315fb1d45c94addfd2e28d72e40a21c96842cd7b12a01ca6fb7cca1d1ce",
+      "zipCRC32": "c63f3f9c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003310_0.jpg",
+      "bytes": 73372,
+      "sha256": "e9d69aba2836a4d0f509fdd752c44ca942242d7a2c79edca7f8ab894e94e351b",
+      "zipCRC32": "ab024c47"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003320.mtl",
+      "bytes": 246,
+      "sha256": "f743c6f185d75c93cc4568594898115638a5eb3c44023c3105080db92f3685bd",
+      "zipCRC32": "2bc9ec02"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003320.obj",
+      "bytes": 136194,
+      "sha256": "71d577d0d27f81f1b36bdf4f86ed124a81e03c891b6ed9ed780c8ecc7ce81be0",
+      "zipCRC32": "19d81212"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003320_0.jpg",
+      "bytes": 51131,
+      "sha256": "eadcafe9e2a19abab43356a173e559534d79ab40526e49ef38e9aec001cbaed8",
+      "zipCRC32": "95fe8b58"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003330.mtl",
+      "bytes": 246,
+      "sha256": "918af450a740f17b60525565b2af1751193777a0b653aa7c3ec526854d688836",
+      "zipCRC32": "ea79844c"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003330.obj",
+      "bytes": 175213,
+      "sha256": "6df4d7e3c03737b7cc381378d2fa9d4f71c275dc41ef9ec2941d2e9c08050a02",
+      "zipCRC32": "d353cf59"
+    },
+    {
+      "path": "672497d4/Tile_+038_+020_L20_0003330_0.jpg",
+      "bytes": 68705,
+      "sha256": "fc0275a297b5a11b835793dd58d4e149845a224bb3f708f73d25f714e64a8200",
+      "zipCRC32": "d9ab6db0"
+    }
+  ],
+  "files": [
+    {
+      "path": "Tile_+038_+020_L20_0000000.b3dm",
+      "bytes": 168072,
+      "sha256": "e3fc7f210b79f09a0b7d956c2ab69f3192527b3ff0cb868864054e34a858dae8",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000000.obj",
+      "triangles": 3612,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000000_0.jpg",
+        "sha256": "941366debf8a140e8ea308118e87e64fb27ad6ea17c673f8c0a090eeb1c9b69b",
+        "bytes": 88846,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8130350787923817e-06,
+      "originalVertexCount": 10836,
+      "indexedVertexCount": 2811,
+      "attributeTriangleSHA256": "c72706dc4fa94a742abac7f93cd2fcca7de76958fc51d66789be7b02963d319e",
+      "originalPhotographSHA256": "941366debf8a140e8ea308118e87e64fb27ad6ea17c673f8c0a090eeb1c9b69b",
+      "photographSHA256": "941366debf8a140e8ea308118e87e64fb27ad6ea17c673f8c0a090eeb1c9b69b",
+      "photographBytes": 88846,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "d46c5d8f02beff7d3267b7d3bd89c85852810bf93cea2aaece261f6e12ab2a15",
+      "originalBytes": 306760
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000010.b3dm",
+      "bytes": 209304,
+      "sha256": "95c82affce3f1f016ee0f76595d2cc99385b7f6f460c0a650690f30e8d92fb03",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000010.obj",
+      "triangles": 5276,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000010_0.jpg",
+        "sha256": "12b6272b40a167e1ecfe924c974fa8826bc1cbd33620cb6565ab20230a802560",
+        "bytes": 97351,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8138924480790592e-06,
+      "originalVertexCount": 15828,
+      "indexedVertexCount": 3948,
+      "attributeTriangleSHA256": "dde62f5a42908484330ddde4481b900e18e45031bb4c952ae8f7f8effcd47a5e",
+      "originalPhotographSHA256": "12b6272b40a167e1ecfe924c974fa8826bc1cbd33620cb6565ab20230a802560",
+      "photographSHA256": "12b6272b40a167e1ecfe924c974fa8826bc1cbd33620cb6565ab20230a802560",
+      "photographBytes": 97351,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "38bd11d1ae6728dbfb6376c1a0e4226598c3fefcf886a015b139bb5e07068859",
+      "originalBytes": 415104
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000020.b3dm",
+      "bytes": 154504,
+      "sha256": "56840ad38f1a79d7ba90eeeeb745fe58671780c561704d4b50018f003c60582d",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000020.obj",
+      "triangles": 3594,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000020_0.jpg",
+        "sha256": "2ecb0f9521e0e6fa2b6850605c9360b9ae15d8f231d87246f3327738bceccf9d",
+        "bytes": 75747,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.809513060559766e-06,
+      "originalVertexCount": 10782,
+      "indexedVertexCount": 2793,
+      "attributeTriangleSHA256": "3ac4bc3a7ef83acf2bde424d4850a2b7ab16ee7cc49240a07ec6989c66c3afaf",
+      "originalPhotographSHA256": "2ecb0f9521e0e6fa2b6850605c9360b9ae15d8f231d87246f3327738bceccf9d",
+      "photographSHA256": "2ecb0f9521e0e6fa2b6850605c9360b9ae15d8f231d87246f3327738bceccf9d",
+      "photographBytes": 75747,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "99ef8bc714037bd2c53a73084b7374956ece8048e68c2ae214d4a586f58fa956",
+      "originalBytes": 292580
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000030.b3dm",
+      "bytes": 164928,
+      "sha256": "2a99349a9694ee07d895f5cdbe4b16618da97591d68cfdf17c34a33a02c23463",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000030.obj",
+      "triangles": 3878,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000030_0.jpg",
+        "sha256": "005ec5efbb5ea3a3c0af67ee6074982c5a4634f7998d7cd262b9b55ac4820db8",
+        "bytes": 80267,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.907006655699206e-06,
+      "originalVertexCount": 11634,
+      "indexedVertexCount": 3003,
+      "attributeTriangleSHA256": "f4fea8f8ad7c56bea40148a5b7a8fa5accd92a725c816cc23d0b4375d7d177f7",
+      "originalPhotographSHA256": "005ec5efbb5ea3a3c0af67ee6074982c5a4634f7998d7cd262b9b55ac4820db8",
+      "photographSHA256": "005ec5efbb5ea3a3c0af67ee6074982c5a4634f7998d7cd262b9b55ac4820db8",
+      "photographBytes": 80267,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "4b6282cacc3bc81d9ab947b6884e6acf35d948294123e87d1a80efa1ddf5a492",
+      "originalBytes": 314136
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000100.b3dm",
+      "bytes": 155112,
+      "sha256": "c7439c93bbacf89ee0318fd761f07e90d6cae366abde9852b6ae0bb914bb1262",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000100.obj",
+      "triangles": 3705,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000100_0.jpg",
+        "sha256": "9d3b19213476b1e0bb50713a79724b0730187ff78e2c944f1560d6d4d578f477",
+        "bytes": 74446,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8146829126617376e-06,
+      "originalVertexCount": 11115,
+      "indexedVertexCount": 2855,
+      "attributeTriangleSHA256": "1c6fe36ef87e76feabc277c3946caad7bbcacaac31562cfe9143ac32effa01a8",
+      "originalPhotographSHA256": "9d3b19213476b1e0bb50713a79724b0730187ff78e2c944f1560d6d4d578f477",
+      "photographSHA256": "9d3b19213476b1e0bb50713a79724b0730187ff78e2c944f1560d6d4d578f477",
+      "photographBytes": 74446,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "912a61b0e5486c2e3539232d2e0eeace2c114b093f4ea878aa813c3530456fd8",
+      "originalBytes": 297936
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000110.b3dm",
+      "bytes": 155336,
+      "sha256": "3166f72b076a9494c09e8e53806faa08748dfe254c52d673f5ecd35c4fb616e0",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000110.obj",
+      "triangles": 3867,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000110_0.jpg",
+        "sha256": "9de01a2bb6bcf54f75230a52574c0b891c93bab1234e7aa0af4fcd55944a7ab7",
+        "bytes": 73053,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8143801930345944e-06,
+      "originalVertexCount": 11601,
+      "indexedVertexCount": 2887,
+      "attributeTriangleSHA256": "e3085439459be3927356325b1f8bb5ffe2b06214c7c6d2d91c428bed62d68a60",
+      "originalPhotographSHA256": "9de01a2bb6bcf54f75230a52574c0b891c93bab1234e7aa0af4fcd55944a7ab7",
+      "photographSHA256": "9de01a2bb6bcf54f75230a52574c0b891c93bab1234e7aa0af4fcd55944a7ab7",
+      "photographBytes": 73053,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "12392f84ac3912816f0ea438e2d57e1dd3d8fca0178dad996849cf5129172994",
+      "originalBytes": 306268
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000120.b3dm",
+      "bytes": 201108,
+      "sha256": "4be57a3187e7af2141b31d1c5158731fd9410e840f9819917c979e0d62ba9b3d",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000120.obj",
+      "triangles": 5196,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000120_0.jpg",
+        "sha256": "fd80798a2ba7946b3e0fdb60b55b928fb657da68abb3d7e1f314bf04033b1a8b",
+        "bytes": 86937,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9070508159302335e-06,
+      "originalVertexCount": 15588,
+      "indexedVertexCount": 4083,
+      "attributeTriangleSHA256": "80f3b0487a2fe0197f54c6b5786d8e51732e1915e5051513fcbd3efe68fd08ac",
+      "originalPhotographSHA256": "fd80798a2ba7946b3e0fdb60b55b928fb657da68abb3d7e1f314bf04033b1a8b",
+      "photographSHA256": "fd80798a2ba7946b3e0fdb60b55b928fb657da68abb3d7e1f314bf04033b1a8b",
+      "photographBytes": 86937,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "01910487b5556dc3b724be1fc9c056d51a69040f8f22dbe75bc406bdb2c83aab",
+      "originalBytes": 399892
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000130.b3dm",
+      "bytes": 169400,
+      "sha256": "e8470e2b977a488910564104d5b6d00947ff48e841bb931d12bf83159884c272",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000130.obj",
+      "triangles": 4008,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000130_0.jpg",
+        "sha256": "a299768693ef9fd9fef4ed99261153dd365a73ebf76b2d51a767bba16b69029a",
+        "bytes": 80940,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9067774701397866e-06,
+      "originalVertexCount": 12024,
+      "indexedVertexCount": 3154,
+      "attributeTriangleSHA256": "c4bee2b155c39cdb6bdbd47270df5ef4359a1922eb496b031e2a74f21a118248",
+      "originalPhotographSHA256": "a299768693ef9fd9fef4ed99261153dd365a73ebf76b2d51a767bba16b69029a",
+      "photographSHA256": "a299768693ef9fd9fef4ed99261153dd365a73ebf76b2d51a767bba16b69029a",
+      "photographBytes": 80940,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "6c617cd0eccfb913eab4358ec10ebbbfc54e44c8985bbe9f0ec9cbc1beb9e932",
+      "originalBytes": 322608
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000200.b3dm",
+      "bytes": 194236,
+      "sha256": "fa0ba1c9c61599554296df4eea8cbc7821efc81ec093c317163da40f5a0026dd",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000200.obj",
+      "triangles": 3862,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000200_0.jpg",
+        "sha256": "579ef041ced2246a73e774963c2ed5f13749016e5fc6cbeb79de80a9e19780ed",
+        "bytes": 111567,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.812938516034592e-06,
+      "originalVertexCount": 11586,
+      "indexedVertexCount": 2908,
+      "attributeTriangleSHA256": "bf00b1d489db790e24ccb9a5bc45fbb5303216a443fc690811eef7beedea6d54",
+      "originalPhotographSHA256": "579ef041ced2246a73e774963c2ed5f13749016e5fc6cbeb79de80a9e19780ed",
+      "photographSHA256": "579ef041ced2246a73e774963c2ed5f13749016e5fc6cbeb79de80a9e19780ed",
+      "photographBytes": 111567,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "f4e43ab7f8ac4be55146723e0b5392253cb883a89461349f8b0b38bf28a78296",
+      "originalBytes": 344480
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000210.b3dm",
+      "bytes": 120764,
+      "sha256": "880dce02a6be49dcd4d7ace488599a8639f3e4e132f75617794546ec83638a8f",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000210.obj",
+      "triangles": 2127,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000210_0.jpg",
+        "sha256": "069f4497610043d0cd91a8d4fce50291e3bc6a10bb39083634f2fe074e88e4e8",
+        "bytes": 73701,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9044243231292057e-06,
+      "originalVertexCount": 6381,
+      "indexedVertexCount": 1648,
+      "attributeTriangleSHA256": "1f1ffa6c117fbc919f051ac410f8a6fd6ce5de3757ecde8bd316d1d498c24589",
+      "originalPhotographSHA256": "069f4497610043d0cd91a8d4fce50291e3bc6a10bb39083634f2fe074e88e4e8",
+      "photographSHA256": "069f4497610043d0cd91a8d4fce50291e3bc6a10bb39083634f2fe074e88e4e8",
+      "photographBytes": 73701,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "f53d6af6b9970914d066b1dd5bb8e8762cf5edad58c23786a61cc1822c5e8b18",
+      "originalBytes": 202512
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000220.b3dm",
+      "bytes": 139128,
+      "sha256": "209de11d0ce946405976c940646810340c8180f32a6e2930ab72d6eb91f95f4b",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000220.obj",
+      "triangles": 2732,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000220_0.jpg",
+        "sha256": "d90795143782d0bda7e28a803843f049387a6b17c9c1bf9f831ebab5e853754f",
+        "bytes": 79077,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9054402216056587e-06,
+      "originalVertexCount": 8196,
+      "indexedVertexCount": 2116,
+      "attributeTriangleSHA256": "f9bfc3934108be423f38fb37f738b6e12ed4f21a0f45556687c262ef719a3138",
+      "originalPhotographSHA256": "d90795143782d0bda7e28a803843f049387a6b17c9c1bf9f831ebab5e853754f",
+      "photographSHA256": "d90795143782d0bda7e28a803843f049387a6b17c9c1bf9f831ebab5e853754f",
+      "photographBytes": 79077,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "f04b649e0cefaa3e4d493c4c0a8e608ff56a992ac9894657f616e02dffef1ab3",
+      "originalBytes": 244192
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000230.b3dm",
+      "bytes": 111692,
+      "sha256": "1ef510cbb49119ee896ec68d7f75b036af35707e60674c3b8383caba6c5040da",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000230.obj",
+      "triangles": 2611,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000230_0.jpg",
+        "sha256": "0a6646db8062bfe2db509c2973e234c3355799ed6ca66e0fe1befa23b966013d",
+        "bytes": 55191,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8137767859325322e-06,
+      "originalVertexCount": 7833,
+      "indexedVertexCount": 1975,
+      "attributeTriangleSHA256": "0f3d5594e1736a4229352a75cbc79cdcc9716532d7d12c0a859993696823652e",
+      "originalPhotographSHA256": "0a6646db8062bfe2db509c2973e234c3355799ed6ca66e0fe1befa23b966013d",
+      "photographSHA256": "0a6646db8062bfe2db509c2973e234c3355799ed6ca66e0fe1befa23b966013d",
+      "photographBytes": 55191,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "b60e91406c44fc74fdbf98c928402be6f741680c342f56275f0d4a9113c27136",
+      "originalBytes": 213040
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000240.b3dm",
+      "bytes": 86392,
+      "sha256": "0e4294c19464957acef6cc2adbd7fc2fb2f418915fb74b5f7f8149585fe935bd",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000240.obj",
+      "triangles": 1703,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000240_0.jpg",
+        "sha256": "567f83b1844828da082fab5b70628b61303ed229815115009be597820bb4eaca",
+        "bytes": 48400,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.803316971584536e-06,
+      "originalVertexCount": 5109,
+      "indexedVertexCount": 1322,
+      "attributeTriangleSHA256": "1cca66744bbac19d3929433845d9addc045f94c96a35e0ac5dcbbba529f0f818",
+      "originalPhotographSHA256": "567f83b1844828da082fab5b70628b61303ed229815115009be597820bb4eaca",
+      "photographSHA256": "567f83b1844828da082fab5b70628b61303ed229815115009be597820bb4eaca",
+      "photographBytes": 48400,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "06634bd6b471865300808da9af6933a0eb97dd7df29c71349a6753cc3dcc420e",
+      "originalBytes": 151768
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000300.b3dm",
+      "bytes": 205660,
+      "sha256": "596d56fb823fe81c2f86025bd659dca1e890ef5051dc4009f3c8b1c725d7da86",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000300.obj",
+      "triangles": 4248,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000300_0.jpg",
+        "sha256": "0b7c2d005316a96f715591176bdab8289716b75fe827592bf0d0c27acc838d70",
+        "bytes": 118876,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.906946650365171e-06,
+      "originalVertexCount": 12744,
+      "indexedVertexCount": 2998,
+      "attributeTriangleSHA256": "5e6fa7c9edeaa9b73e99a7c18eff23a44f08e17ba953da64587d36916657c918",
+      "originalPhotographSHA256": "0b7c2d005316a96f715591176bdab8289716b75fe827592bf0d0c27acc838d70",
+      "photographSHA256": "0b7c2d005316a96f715591176bdab8289716b75fe827592bf0d0c27acc838d70",
+      "photographBytes": 118876,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "eb750523339dd082a9aa30ef3c79b742205fb206fe92cc2b073d5e66c55beeb1",
+      "originalBytes": 374952
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000310.b3dm",
+      "bytes": 212632,
+      "sha256": "0b883a7ebe189b4f22cb078f1562516b13aaa23a18e61160530d1d023f721f2f",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000310.obj",
+      "triangles": 4463,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000310_0.jpg",
+        "sha256": "d6aaa803c4719c4dbccaa7ce05223551091ee9b1109f96954fadd919849fc946",
+        "bytes": 118479,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.906644072846575e-06,
+      "originalVertexCount": 13389,
+      "indexedVertexCount": 3302,
+      "attributeTriangleSHA256": "bed497171b43a06de2177fe5952be920729b263dd08ad7a53add6537ae92bede",
+      "originalPhotographSHA256": "d6aaa803c4719c4dbccaa7ce05223551091ee9b1109f96954fadd919849fc946",
+      "photographSHA256": "d6aaa803c4719c4dbccaa7ce05223551091ee9b1109f96954fadd919849fc946",
+      "photographBytes": 118479,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "0c0732f870ca0219b92704fab51e7d2b8455cfe22540f257cadf305018243050",
+      "originalBytes": 387452
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000320.b3dm",
+      "bytes": 232728,
+      "sha256": "5c5e1b0a40c7fe91d749555203ab93db88fcf09b1710e195fbe27feb1ce2db64",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000320.obj",
+      "triangles": 5559,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000320_0.jpg",
+        "sha256": "9a733ff7d2b646bc5ec377886d206c07a65f8e3b1a269978d92c958d83283324",
+        "bytes": 117774,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9068527379317857e-06,
+      "originalVertexCount": 16677,
+      "indexedVertexCount": 4013,
+      "attributeTriangleSHA256": "cdb5961c724b5726f406043806b19f18759fcfcdbc66ec7eefe657dd68826a2d",
+      "originalPhotographSHA256": "9a733ff7d2b646bc5ec377886d206c07a65f8e3b1a269978d92c958d83283324",
+      "photographSHA256": "9a733ff7d2b646bc5ec377886d206c07a65f8e3b1a269978d92c958d83283324",
+      "photographBytes": 117774,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "09089a649e5a2efd15a108d5132eeba2992fc89b017d146ebabb0987bcd1548c",
+      "originalBytes": 452512
+    },
+    {
+      "path": "Tile_+038_+020_L20_0000330.b3dm",
+      "bytes": 206272,
+      "sha256": "8c3dfae681d414fce57a3dd27056da5933baa655e3703cd271e7426da6819898",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0000330.obj",
+      "triangles": 4562,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0000330_0.jpg",
+        "sha256": "d31991e4780eb07c09301e5c2b594ee756d52d5dd5861816cb458b2f9ab8c2d8",
+        "bytes": 110421,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.9069049201902999e-06,
+      "originalVertexCount": 13686,
+      "indexedVertexCount": 3357,
+      "attributeTriangleSHA256": "6a4856eed117758a3609ff8cf18dd733817c052c14cbe901dd751af367ae3c7d",
+      "originalPhotographSHA256": "d31991e4780eb07c09301e5c2b594ee756d52d5dd5861816cb458b2f9ab8c2d8",
+      "photographSHA256": "d31991e4780eb07c09301e5c2b594ee756d52d5dd5861816cb458b2f9ab8c2d8",
+      "photographBytes": 110421,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "6cfc4c688c2b71e03e6b48b028efc6f49ffc78e9161d01d1e4f02547e1c68ef6",
+      "originalBytes": 385340
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001000.b3dm",
+      "bytes": 134968,
+      "sha256": "13229763068d473a42a015974b4a1788b18811379839524441c861a15848b2ed",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001000.obj",
+      "triangles": 3284,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001000_0.jpg",
+        "sha256": "b71402d3c1b8f8b1e8984ed2b1df9f5fd13fb2586b4a7e2f49095f5aedfc4825",
+        "bytes": 62813,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.814236862353937e-06,
+      "originalVertexCount": 9852,
+      "indexedVertexCount": 2556,
+      "attributeTriangleSHA256": "8fc9f95f67abd7611e40a3edd473aa34febacf20d5809f4828de24ae1b5a4edd",
+      "originalPhotographSHA256": "b71402d3c1b8f8b1e8984ed2b1df9f5fd13fb2586b4a7e2f49095f5aedfc4825",
+      "photographSHA256": "b71402d3c1b8f8b1e8984ed2b1df9f5fd13fb2586b4a7e2f49095f5aedfc4825",
+      "photographBytes": 62813,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "094126b12aebdeaf58c94b6741f5b8a1d6d6a7653b59b34d215a798279421564",
+      "originalBytes": 261044
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001010.b3dm",
+      "bytes": 141480,
+      "sha256": "17c713ab535befbdb155dcbbf3d0ecc50f94a13b35e51f493e88c2c8f6ba5d92",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001010.obj",
+      "triangles": 2817,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001010_0.jpg",
+        "sha256": "b7efcf0fb1adeca64d843c8f647bffc9033f6573df20603e62fa5b72fa2ded5b",
+        "bytes": 81088,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.813113849560068e-06,
+      "originalVertexCount": 8451,
+      "indexedVertexCount": 2108,
+      "attributeTriangleSHA256": "91224c8e6f5c5a2907f164c2b918dd12627919871131e27ff01166f7fa8a39e0",
+      "originalPhotographSHA256": "b7efcf0fb1adeca64d843c8f647bffc9033f6573df20603e62fa5b72fa2ded5b",
+      "photographSHA256": "b7efcf0fb1adeca64d843c8f647bffc9033f6573df20603e62fa5b72fa2ded5b",
+      "photographBytes": 81088,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "fe3f5731a68e0e81be3a2d1ac3fc84823764c802e163abac2394c233108703fd",
+      "originalBytes": 251296
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001020.b3dm",
+      "bytes": 246852,
+      "sha256": "4b42b1c9dcb78c5eb07b0a602ce3de90d0337a262b30b99ce71686d43ab2cfe7",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001020.obj",
+      "triangles": 6635,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001020_0.jpg",
+        "sha256": "6e251745d68b63cda7beb5b47426b8cca86c7a7a4aec29d30b7244935c26e8d1",
+        "bytes": 102127,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8132299380322365e-06,
+      "originalVertexCount": 19905,
+      "indexedVertexCount": 5179,
+      "attributeTriangleSHA256": "bebd6d064319d3818f124caa5982ecbbb5cfdad484083f0034a1d2fc701020be",
+      "originalPhotographSHA256": "6e251745d68b63cda7beb5b47426b8cca86c7a7a4aec29d30b7244935c26e8d1",
+      "photographSHA256": "6e251745d68b63cda7beb5b47426b8cca86c7a7a4aec29d30b7244935c26e8d1",
+      "photographBytes": 102127,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "0be9fe180fd3d9fea4dd8a54956cbad473b675b2f91f75c584bd312bc02ed2d2",
+      "originalBytes": 501420
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001030.b3dm",
+      "bytes": 149704,
+      "sha256": "7e9926ebd7762fa63aeda4222dc6f7b3df81728707bc66929ead444a6b078787",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001030.obj",
+      "triangles": 3426,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001030_0.jpg",
+        "sha256": "d6b5c890d5ff74895cb20486e4cb8a86a67ee4c7e4217f3a5e084d539cae6c47",
+        "bytes": 75615,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8133371162984986e-06,
+      "originalVertexCount": 10278,
+      "indexedVertexCount": 2610,
+      "attributeTriangleSHA256": "e23a5ce6e089caf92056b7a28d19dea6e041e4f6a60f083e6a488aa9580ba186",
+      "originalPhotographSHA256": "d6b5c890d5ff74895cb20486e4cb8a86a67ee4c7e4217f3a5e084d539cae6c47",
+      "photographSHA256": "d6b5c890d5ff74895cb20486e4cb8a86a67ee4c7e4217f3a5e084d539cae6c47",
+      "photographBytes": 75615,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "dda264e1770541ee4b4988ac2ac18fec58a9586bfc898f13101dd467ab34b2bc",
+      "originalBytes": 282364
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001100.b3dm",
+      "bytes": 168008,
+      "sha256": "0e934b59eb724fae767c9eadc8cc76211c14d71442709c5cde650c00439e0e25",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001100.obj",
+      "triangles": 3672,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001100_0.jpg",
+        "sha256": "f39f68cabba803adbaf80ce8b80e9213f6b1e4ba4e47acee54ad1b3ee1f4c84e",
+        "bytes": 90804,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.60786701903271e-06,
+      "originalVertexCount": 11016,
+      "indexedVertexCount": 2692,
+      "attributeTriangleSHA256": "408377ecb0e084d58ac6e90e3f23701e30a08035ee6bbb836618b31df6a30003",
+      "originalPhotographSHA256": "f39f68cabba803adbaf80ce8b80e9213f6b1e4ba4e47acee54ad1b3ee1f4c84e",
+      "photographSHA256": "f39f68cabba803adbaf80ce8b80e9213f6b1e4ba4e47acee54ad1b3ee1f4c84e",
+      "photographBytes": 90804,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "6fac8ec8a2f76fd43325d23a773c2ee5b7764de4fa34960924f3016da72c5662",
+      "originalBytes": 312312
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001110.b3dm",
+      "bytes": 215672,
+      "sha256": "8919479999612d5ba5a6eb679910a570947382dd202f162c93e82a68173a4744",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001110.obj",
+      "triangles": 4748,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001110_0.jpg",
+        "sha256": "41ef7241ac28ad4088c95ed7f60b4a43581d57fe3ea2d74f3052903f94693f8c",
+        "bytes": 112796,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.629322823277107e-06,
+      "originalVertexCount": 14244,
+      "indexedVertexCount": 3653,
+      "attributeTriangleSHA256": "b74af4151b939b3160031d4f5c047667043ce336b3d6a00ab1a448b93f318a34",
+      "originalPhotographSHA256": "41ef7241ac28ad4088c95ed7f60b4a43581d57fe3ea2d74f3052903f94693f8c",
+      "photographSHA256": "41ef7241ac28ad4088c95ed7f60b4a43581d57fe3ea2d74f3052903f94693f8c",
+      "photographBytes": 112796,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "36aaebac22d8ae14121d04e8477375bc284a0400b9dc9027f5ac8666799fcb17",
+      "originalBytes": 398864
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001120.b3dm",
+      "bytes": 215676,
+      "sha256": "167ffb48af023129c548152a9251e9579eb4c8b09547d6c5dba2e72a4a772341",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001120.obj",
+      "triangles": 4593,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001120_0.jpg",
+        "sha256": "7376c8387f0aac81e2cf90fd39fb0fa7dbb3040a6156200eec9ce534bf9a4c60",
+        "bytes": 118681,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.6289918808924995e-06,
+      "originalVertexCount": 13779,
+      "indexedVertexCount": 3405,
+      "attributeTriangleSHA256": "95e4554b58d2c9b6ef5016e8e92592dac14658083f2a384078662a2c41bf51fc",
+      "originalPhotographSHA256": "7376c8387f0aac81e2cf90fd39fb0fa7dbb3040a6156200eec9ce534bf9a4c60",
+      "photographSHA256": "7376c8387f0aac81e2cf90fd39fb0fa7dbb3040a6156200eec9ce534bf9a4c60",
+      "photographBytes": 118681,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "04bf2c11b56a01391bcae3121d24f52e6955e4d7af3a77221973fbed21fd55dd",
+      "originalBytes": 395456
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001130.b3dm",
+      "bytes": 196152,
+      "sha256": "fc233466d829f36b2a62f4fb88bf25b70f1eb2cd55ce181d1632be1e92a0d632",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001130.obj",
+      "triangles": 3665,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001130_0.jpg",
+        "sha256": "7f83b0085c134101fbdfff664d6effc8df71e8375e6cf68778eb6c5162626dab",
+        "bytes": 119423,
+        "dimensions": [
+          2048,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.628541624171703e-06,
+      "originalVertexCount": 10995,
+      "indexedVertexCount": 2670,
+      "attributeTriangleSHA256": "5394e150e53ad5962b6bd5175f03853c236970e02a718e2821e7c639c11c930a",
+      "originalPhotographSHA256": "7f83b0085c134101fbdfff664d6effc8df71e8375e6cf68778eb6c5162626dab",
+      "photographSHA256": "7f83b0085c134101fbdfff664d6effc8df71e8375e6cf68778eb6c5162626dab",
+      "photographBytes": 119423,
+      "photographDimensions": [
+        2048,
+        1024
+      ],
+      "textureRGBABytes": 8388608,
+      "originalSHA256": "c41da7866a46a2c8ddd10001f0698bf5fdcd79847098e97466d3acb1f61d12a4",
+      "originalBytes": 340516
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001200.b3dm",
+      "bytes": 199000,
+      "sha256": "2b97b839e725c8410765894e7ee023eb5cac7294e8559ff3efff98e158a353e1",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001200.obj",
+      "triangles": 4301,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001200_0.jpg",
+        "sha256": "5d8bb1cc0efe28f9a29a4701760b4773a84354907a82a53a2c7a94f7736b5f74",
+        "bytes": 108354,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.814355409303971e-06,
+      "originalVertexCount": 12903,
+      "indexedVertexCount": 3175,
+      "attributeTriangleSHA256": "e2719e3405e00e3c78d8c569418083478feed7e6a069300c5a9822cd7157582d",
+      "originalPhotographSHA256": "5d8bb1cc0efe28f9a29a4701760b4773a84354907a82a53a2c7a94f7736b5f74",
+      "photographSHA256": "5d8bb1cc0efe28f9a29a4701760b4773a84354907a82a53a2c7a94f7736b5f74",
+      "photographBytes": 108354,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "1f2f7be314d1771a16d774b046bc9d1a46447902bd332611c95e611b1129ba82",
+      "originalBytes": 367608
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001210.b3dm",
+      "bytes": 189300,
+      "sha256": "95145309bdb4963d1f7480760c5836937c215276bbd01d3a1e741f196e45bc52",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001210.obj",
+      "triangles": 3741,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001210_0.jpg",
+        "sha256": "b5d50b79cb0520283b6cba543dc79e35dd93e9fbacb8a87af243bf62120b3214",
+        "bytes": 111539,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.810359530120877e-06,
+      "originalVertexCount": 11223,
+      "indexedVertexCount": 2699,
+      "attributeTriangleSHA256": "49df7dbc95ad2b8bf90369e41c8053d93e18225499b8df14d7c1aaa510e1a03a",
+      "originalPhotographSHA256": "b5d50b79cb0520283b6cba543dc79e35dd93e9fbacb8a87af243bf62120b3214",
+      "photographSHA256": "b5d50b79cb0520283b6cba543dc79e35dd93e9fbacb8a87af243bf62120b3214",
+      "photographBytes": 111539,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "d4330f63fc8053fc0f63b03615bdb56aa2174ed29731fcefd081d3c18649085d",
+      "originalBytes": 337192
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001220.b3dm",
+      "bytes": 189804,
+      "sha256": "c31c837a2230023c1248137fe48403a22dbb6fdcf15c1164b987ccac1032396d",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001220.obj",
+      "triangles": 4245,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001220_0.jpg",
+        "sha256": "d809c8ccbb073d1f4f7935d1c302d97f4dfd141a71f3d47f725176161ecc49aa",
+        "bytes": 98417,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8118138405707214e-06,
+      "originalVertexCount": 12735,
+      "indexedVertexCount": 3229,
+      "attributeTriangleSHA256": "fb655ee9b61b4e4abf6be53890000926e5edc90af3d4ae00a51cb62143d6529a",
+      "originalPhotographSHA256": "d809c8ccbb073d1f4f7935d1c302d97f4dfd141a71f3d47f725176161ecc49aa",
+      "photographSHA256": "d809c8ccbb073d1f4f7935d1c302d97f4dfd141a71f3d47f725176161ecc49aa",
+      "photographBytes": 98417,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "894f369f1987ae304660d02b038865b5fff04528c2bae3b689ddf685d295509d",
+      "originalBytes": 354312
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001230.b3dm",
+      "bytes": 192384,
+      "sha256": "a53320a0786482c18ccaeb3a6748a1f68b6579724205adec49a785e1b359908c",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001230.obj",
+      "triangles": 4190,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001230_0.jpg",
+        "sha256": "9e7b01e34a7e8c41e249c213df5ea013c9491f6ce6cc283a5f9b8a782c235a85",
+        "bytes": 101448,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8137779654334736e-06,
+      "originalVertexCount": 12570,
+      "indexedVertexCount": 3223,
+      "attributeTriangleSHA256": "0fced8161bee0c947a9aec129e46fd4312b31fedc5aa50ea48f768026cb863ff",
+      "originalPhotographSHA256": "9e7b01e34a7e8c41e249c213df5ea013c9491f6ce6cc283a5f9b8a782c235a85",
+      "photographSHA256": "9e7b01e34a7e8c41e249c213df5ea013c9491f6ce6cc283a5f9b8a782c235a85",
+      "photographBytes": 101448,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "bdad00dda28ab7f44e400cbbc3f2c8f80fdbc600e2019d91ce94f06a59c99ef0",
+      "originalBytes": 354044
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001300.b3dm",
+      "bytes": 123808,
+      "sha256": "b6f2907108e4c0baf436273de232c0fe25688dd4854240d7032aab0049ca9c4a",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001300.obj",
+      "triangles": 2229,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001300_0.jpg",
+        "sha256": "06317f1b80501a351ea4b50d938ac175db03294989ab3cb111780c09b169967e",
+        "bytes": 77137,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.610245859268616e-06,
+      "originalVertexCount": 6687,
+      "indexedVertexCount": 1598,
+      "attributeTriangleSHA256": "f9deb48bacd3cd88e53d76e2095df39ad8e47a807ccc1c4d8cb39be1aa7738f9",
+      "originalPhotographSHA256": "06317f1b80501a351ea4b50d938ac175db03294989ab3cb111780c09b169967e",
+      "photographSHA256": "06317f1b80501a351ea4b50d938ac175db03294989ab3cb111780c09b169967e",
+      "photographBytes": 77137,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "a028065525d31d035f45a3d8ed15199e225c616e39228116508c138f8b37f584",
+      "originalBytes": 212068
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001310.b3dm",
+      "bytes": 173552,
+      "sha256": "4a1bf2ae99aaebc9311cafd998f36fff0aabdff866662da20901f4fd287b5f4c",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001310.obj",
+      "triangles": 3434,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001310_0.jpg",
+        "sha256": "e2a2c2fad10b4c76bbc2aa0894dbc336e6ee7faa9cbb26be11578d2483bcce3e",
+        "bytes": 100671,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.628499730572003e-06,
+      "originalVertexCount": 10302,
+      "indexedVertexCount": 2547,
+      "attributeTriangleSHA256": "9bfba5905009ff3bd0ec2847b6cc82f66bca70d403397451ef57fa2c70ca22da",
+      "originalPhotographSHA256": "e2a2c2fad10b4c76bbc2aa0894dbc336e6ee7faa9cbb26be11578d2483bcce3e",
+      "photographSHA256": "e2a2c2fad10b4c76bbc2aa0894dbc336e6ee7faa9cbb26be11578d2483bcce3e",
+      "photographBytes": 100671,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "384d9d6f2662c2cbf06c92d63b6438b4937fb0118c386c4e0637311621a266b1",
+      "originalBytes": 307908
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001320.b3dm",
+      "bytes": 193216,
+      "sha256": "e2fbbe09b0c24744a6d4687cac8bd2b249e93d670c22958424b87468d6cb86f9",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001320.obj",
+      "triangles": 4122,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001320_0.jpg",
+        "sha256": "de3c625cf16b30d2f88153b1a74ecee467fbd821a49f5d216e25bec35a5c7e58",
+        "bytes": 104966,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.618655530450269e-06,
+      "originalVertexCount": 12366,
+      "indexedVertexCount": 3109,
+      "attributeTriangleSHA256": "2fd4b09a383b7e057189ba4c547bc05d2866567b3892e90734289a9e13c56091",
+      "originalPhotographSHA256": "de3c625cf16b30d2f88153b1a74ecee467fbd821a49f5d216e25bec35a5c7e58",
+      "photographSHA256": "de3c625cf16b30d2f88153b1a74ecee467fbd821a49f5d216e25bec35a5c7e58",
+      "photographBytes": 104966,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "b9ab89fa2a76fb7670817637e2d4a062bfe2a71c466fad8d669b7a8ad76c7480",
+      "originalBytes": 353484
+    },
+    {
+      "path": "Tile_+038_+020_L20_0001330.b3dm",
+      "bytes": 132516,
+      "sha256": "bc97baf4d8c45dfd7c223a51cfe29d92bcc92afccf1222863aa5f00edd263cae",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0001330.obj",
+      "triangles": 2638,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0001330_0.jpg",
+        "sha256": "eb838cb009e232b7c6590a09d6ec97bb82d66d2e507431c82ea1270d4f6c8359",
+        "bytes": 78375,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.626300714491663e-06,
+      "originalVertexCount": 7914,
+      "indexedVertexCount": 1849,
+      "attributeTriangleSHA256": "3846fb52c0e17c5cb6de039ad911e8161b0c1ca681c0b5dba14599ec0f5871d1",
+      "originalPhotographSHA256": "eb838cb009e232b7c6590a09d6ec97bb82d66d2e507431c82ea1270d4f6c8359",
+      "photographSHA256": "eb838cb009e232b7c6590a09d6ec97bb82d66d2e507431c82ea1270d4f6c8359",
+      "photographBytes": 78375,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "cb455ed297306675fe37868103a9cc4909602ff0b09896fe2946f5f4a9fcad58",
+      "originalBytes": 237844
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002000.b3dm",
+      "bytes": 112228,
+      "sha256": "97a8450bf94da6fe4060ff879cf7a8badff3ca4718d0db5d9bfd04637c3e5097",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002000.obj",
+      "triangles": 1934,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002000_0.jpg",
+        "sha256": "96220bf0a3dc97e3687e63b12230ab77bbcda655af3ff10ea0338c50331bf081",
+        "bytes": 68632,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8096359844530525e-06,
+      "originalVertexCount": 5802,
+      "indexedVertexCount": 1533,
+      "attributeTriangleSHA256": "6555120e2c00bad4e3eeb429a2c3c7f6ab9cc720fc2b70bdb84c993fe197ab64",
+      "originalPhotographSHA256": "96220bf0a3dc97e3687e63b12230ab77bbcda655af3ff10ea0338c50331bf081",
+      "photographSHA256": "96220bf0a3dc97e3687e63b12230ab77bbcda655af3ff10ea0338c50331bf081",
+      "photographBytes": 68632,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "8e21d86af4b24ea2e41874f657d934828cf79293913f1f9d8618421dc0e55301",
+      "originalBytes": 185860
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002010.b3dm",
+      "bytes": 137952,
+      "sha256": "f4271732b81e16f28d420a0da2947e9e42c981d63fc302cab511b46a2aeec59d",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002010.obj",
+      "triangles": 2397,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002010_0.jpg",
+        "sha256": "d15b123191d2824d6ee53499e220ff6d344e3b7d53f1edf5e41ec38d70b905f6",
+        "bytes": 84630,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.809727672887675e-06,
+      "originalVertexCount": 7191,
+      "indexedVertexCount": 1880,
+      "attributeTriangleSHA256": "5aa63b54280648711881188a1997806c8c58a2e2bc3b2eb4383b1f4560b057c9",
+      "originalPhotographSHA256": "d15b123191d2824d6ee53499e220ff6d344e3b7d53f1edf5e41ec38d70b905f6",
+      "photographSHA256": "d15b123191d2824d6ee53499e220ff6d344e3b7d53f1edf5e41ec38d70b905f6",
+      "photographBytes": 84630,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "549b4da122a1ee391dfff503f222e45fad1f2966147fdef3c8e97d4c83671d4d",
+      "originalBytes": 229640
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002020.b3dm",
+      "bytes": 118656,
+      "sha256": "a2be3c4f5d308473374b522d1463401c1999825d87bdceb8998820a7fd03fb0e",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002020.obj",
+      "triangles": 2181,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002020_0.jpg",
+        "sha256": "a9fd4f0b8f54c098817c7826fd1803802b055b9e603138c81eb5320019aaa40a",
+        "bytes": 68577,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.813698796761855e-06,
+      "originalVertexCount": 6543,
+      "indexedVertexCount": 1783,
+      "attributeTriangleSHA256": "751dd043bf79c41389acfa96123a2a4b12c00c39a3b14a36b3a812d5e41d8f96",
+      "originalPhotographSHA256": "a9fd4f0b8f54c098817c7826fd1803802b055b9e603138c81eb5320019aaa40a",
+      "photographSHA256": "a9fd4f0b8f54c098817c7826fd1803802b055b9e603138c81eb5320019aaa40a",
+      "photographBytes": 68577,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "f6173f012d56765d0da2df0e9ce3f95c792a24f6b83908dd1214095bb66c9376",
+      "originalBytes": 200624
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002030.b3dm",
+      "bytes": 72272,
+      "sha256": "8d5ec6fa6804c5989cd47d6abc72188b4fe8cb6cba7de034efa805a891296792",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002030.obj",
+      "triangles": 1394,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002030_0.jpg",
+        "sha256": "5742a237957504a2b3707b818282f482ec99fb1be8ea4652c96f553aff0de1f8",
+        "bytes": 42336,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.808899919022224e-06,
+      "originalVertexCount": 4182,
+      "indexedVertexCount": 1012,
+      "attributeTriangleSHA256": "89bd8ee89d305c075e77c7145377e620d261470d8120c69ff4b2cfc1d16f323d",
+      "originalPhotographSHA256": "5742a237957504a2b3707b818282f482ec99fb1be8ea4652c96f553aff0de1f8",
+      "photographSHA256": "5742a237957504a2b3707b818282f482ec99fb1be8ea4652c96f553aff0de1f8",
+      "photographBytes": 42336,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "350854ab16d243e1fa7c1f9fffa6b3025ee8335801b6227b45a76589a27d4abd",
+      "originalBytes": 127164
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002100.b3dm",
+      "bytes": 146788,
+      "sha256": "7f3ae541c03a31c67e86d9f5b7808f30b9649cc5838a5f832285b02549a906dd",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002100.obj",
+      "triangles": 3183,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002100_0.jpg",
+        "sha256": "bdde39d702160d61c77d4b2bb4e6f57f8b833b799059ba777431f5684e6e1db2",
+        "bytes": 80692,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.6711914503939624e-06,
+      "originalVertexCount": 9549,
+      "indexedVertexCount": 2283,
+      "attributeTriangleSHA256": "0cb9e8d7d989ab3b4ad8aba54480aad85a23aeab2bf2f138303403aff8b87222",
+      "originalPhotographSHA256": "bdde39d702160d61c77d4b2bb4e6f57f8b833b799059ba777431f5684e6e1db2",
+      "photographSHA256": "bdde39d702160d61c77d4b2bb4e6f57f8b833b799059ba777431f5684e6e1db2",
+      "photographBytes": 80692,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "5df4948ed11f22d44541e2bf7474f5c413236ca45c2f216d6182ed39e68e46e3",
+      "originalBytes": 272864
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002110.b3dm",
+      "bytes": 164096,
+      "sha256": "c9600866328e09a939e6dcf614b89acf12c7bbe2ad88366857c41499bef2d394",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002110.obj",
+      "triangles": 3229,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002110_0.jpg",
+        "sha256": "798ba1a5d04443cb3309785c3c30b1cc96f327f82f8446821cc7964e922bf8f3",
+        "bytes": 95946,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8103630544128464e-06,
+      "originalVertexCount": 9687,
+      "indexedVertexCount": 2372,
+      "attributeTriangleSHA256": "9ff15eab435077c8267d0396dece51a5371bb5265e45b79d7a0b85f21718305b",
+      "originalPhotographSHA256": "798ba1a5d04443cb3309785c3c30b1cc96f327f82f8446821cc7964e922bf8f3",
+      "photographSHA256": "798ba1a5d04443cb3309785c3c30b1cc96f327f82f8446821cc7964e922bf8f3",
+      "photographBytes": 95946,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "52c36e3146aa68529188162b50a7487e603b5ac43c411211ae7505bf1f22fee3",
+      "originalBytes": 290876
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002120.b3dm",
+      "bytes": 88432,
+      "sha256": "6567a378b4b9a4fcc3469a83d5508993bddaebb2608b638a04e825f6d4e1e562",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002120.obj",
+      "triangles": 1646,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002120_0.jpg",
+        "sha256": "e7f930381e31b3105c03a47026fb021cc856bb209ecb394cc037f89039267e92",
+        "bytes": 52383,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8122853567301718e-06,
+      "originalVertexCount": 4938,
+      "indexedVertexCount": 1242,
+      "attributeTriangleSHA256": "776961f331fb443cb6f7de31e3ac52284937841f15a2ed27ae10b585d5f07cbb",
+      "originalPhotographSHA256": "e7f930381e31b3105c03a47026fb021cc856bb209ecb394cc037f89039267e92",
+      "photographSHA256": "e7f930381e31b3105c03a47026fb021cc856bb209ecb394cc037f89039267e92",
+      "photographBytes": 52383,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "8dad71f6c5a428641c5d3574625d895da985a5e75ed4dc23c5c15161d1137eb3",
+      "originalBytes": 152332
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002130.b3dm",
+      "bytes": 115028,
+      "sha256": "ec871045f5c925242894dbaab750342b6ebddb684b68e0e6d2640f073b375c24",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002130.obj",
+      "triangles": 2076,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002130_0.jpg",
+        "sha256": "48605c480d97245821260b7add2abb76fcb298059460ab5f79b8b4739cc43156",
+        "bytes": 71338,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.813950499420571e-06,
+      "originalVertexCount": 6228,
+      "indexedVertexCount": 1495,
+      "attributeTriangleSHA256": "14977d9200d349688c458f821e37cde5914401ca35298b06b3df6946831d1b94",
+      "originalPhotographSHA256": "48605c480d97245821260b7add2abb76fcb298059460ab5f79b8b4739cc43156",
+      "photographSHA256": "48605c480d97245821260b7add2abb76fcb298059460ab5f79b8b4739cc43156",
+      "photographBytes": 71338,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "09ceaac1b9d7bc9bc3a7c53a0c2ea5c79f7c177c6376c5aad7afa8b6a9ce54e3",
+      "originalBytes": 197088
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002200.b3dm",
+      "bytes": 24648,
+      "sha256": "75aeaebeb790c51209f2b57c338034068c668216138025ad8ba57cd3f89ca8bd",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002200.obj",
+      "triangles": 172,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002200_0.jpg",
+        "sha256": "e2c721e47a0cfe43575af9cde05bdac7e10cd6de8644ca06c2fbe54b23795bb5",
+        "bytes": 19610,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.782411155839327e-06,
+      "originalVertexCount": 516,
+      "indexedVertexCount": 134,
+      "attributeTriangleSHA256": "c6e1ad5fc945f9fe3e151e4f68e1418bdb0d81a9d3a0503eb5ec8ff41867296b",
+      "originalPhotographSHA256": "e2c721e47a0cfe43575af9cde05bdac7e10cd6de8644ca06c2fbe54b23795bb5",
+      "photographSHA256": "e2c721e47a0cfe43575af9cde05bdac7e10cd6de8644ca06c2fbe54b23795bb5",
+      "photographBytes": 19610,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "ee0ee405d8bef302a2f92a82bbe8d81bb0ddd46c0c781438fd00c2916aa72963",
+      "originalBytes": 31116
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002210.b3dm",
+      "bytes": 14032,
+      "sha256": "3733a609f878306dbad212047952607b7af77150439dce5f1259e1c7037d7c7f",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002210.obj",
+      "triangles": 55,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002210_0.jpg",
+        "sha256": "4c778fc9931696271a56e8899ebf5e490de080b7c881afdd8aa5b330c294990f",
+        "bytes": 11418,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.6586329770216253e-06,
+      "originalVertexCount": 165,
+      "indexedVertexCount": 48,
+      "attributeTriangleSHA256": "721d9ee2b42c739553f511613cd343f4aa934cbc74d8053b30aed559d20d9f18",
+      "originalPhotographSHA256": "4c778fc9931696271a56e8899ebf5e490de080b7c881afdd8aa5b330c294990f",
+      "photographSHA256": "4c778fc9931696271a56e8899ebf5e490de080b7c881afdd8aa5b330c294990f",
+      "photographBytes": 11418,
+      "photographDimensions": [
+        512,
+        512
+      ],
+      "textureRGBABytes": 1048576,
+      "originalSHA256": "ff5ec5a8671d68bdc0cb2809e04f115db7f562871224ecbd531afdc45eeab0e5",
+      "originalBytes": 15904
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002220.b3dm",
+      "bytes": 82944,
+      "sha256": "18a522bcca46e263df8d0a2d61ca18389cc53c6f0b2a36487f64fc3818f733d5",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002220.obj",
+      "triangles": 1191,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002220_0.jpg",
+        "sha256": "9bce08fbd82546d3695dbc73b7337d743b93306ba3546e9d1a90cfcb92fc216c",
+        "bytes": 54208,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.623785961641261e-06,
+      "originalVertexCount": 3573,
+      "indexedVertexCount": 1013,
+      "attributeTriangleSHA256": "43209a21de49a3419e96e321febf7a06b89844e51d390af7a9b543b1d5b503d7",
+      "originalPhotographSHA256": "9bce08fbd82546d3695dbc73b7337d743b93306ba3546e9d1a90cfcb92fc216c",
+      "photographSHA256": "9bce08fbd82546d3695dbc73b7337d743b93306ba3546e9d1a90cfcb92fc216c",
+      "photographBytes": 54208,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "3d99ddaf3538d7d0d3386c0d96d42369e5a4fe60c85c950341cfc437768fcfd3",
+      "originalBytes": 126856
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002230.b3dm",
+      "bytes": 34052,
+      "sha256": "1eb7e5dc5e027998fd33dfec55664c33873f632a6be6efd68545a959af47cff6",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002230.obj",
+      "triangles": 320,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002230_0.jpg",
+        "sha256": "261354eb3ca17c79b134dfcb738d99b773dd08631b256c74af6cc323e39f4634",
+        "bytes": 25143,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.565863086256286e-06,
+      "originalVertexCount": 960,
+      "indexedVertexCount": 283,
+      "attributeTriangleSHA256": "54a93277a9f60a7d5550909e71e386553369f5319a72b9de06dc01469a6abef2",
+      "originalPhotographSHA256": "261354eb3ca17c79b134dfcb738d99b773dd08631b256c74af6cc323e39f4634",
+      "photographSHA256": "261354eb3ca17c79b134dfcb738d99b773dd08631b256c74af6cc323e39f4634",
+      "photographBytes": 25143,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "fa7a749711c848512c1a05276b9921a53280e03b835e2f313440fceacb2e08ab",
+      "originalBytes": 45532
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002300.b3dm",
+      "bytes": 39488,
+      "sha256": "9b2918ed398866c86a541d2ad63fefb5f1d59519a505b1374b759b15fc46e05c",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002300.obj",
+      "triangles": 439,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002300_0.jpg",
+        "sha256": "b39d84eef487c65bc3bd17a002ce61ffe3a27f6b23f4295a70734f6f65973f4b",
+        "bytes": 27403,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8029614728429806e-06,
+      "originalVertexCount": 1317,
+      "indexedVertexCount": 406,
+      "attributeTriangleSHA256": "d8d0d4035bb6b54ad57c2ab1ba28b7be550ceb5fb1fd1dc4d660f05f75f15fe9",
+      "originalPhotographSHA256": "b39d84eef487c65bc3bd17a002ce61ffe3a27f6b23f4295a70734f6f65973f4b",
+      "photographSHA256": "b39d84eef487c65bc3bd17a002ce61ffe3a27f6b23f4295a70734f6f65973f4b",
+      "photographBytes": 27403,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "027b435d2c5aa8bca6972c45cb2ae6e6ee260d81ce840a494d5ba6fbea0e2ffe",
+      "originalBytes": 54932
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002310.b3dm",
+      "bytes": 33520,
+      "sha256": "3ce78d07c273c0dd6b4f85ca20cbcbd657b5fc70fdcbe89532dbbe08ab4c75d2",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002310.obj",
+      "triangles": 312,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002310_0.jpg",
+        "sha256": "4aa985beaafe39bda6fbb8273a1ce385d5e13823d9e3fe3883b1e9bb9de2ced9",
+        "bytes": 24707,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.7990726724501656e-06,
+      "originalVertexCount": 936,
+      "indexedVertexCount": 281,
+      "attributeTriangleSHA256": "5095fae041aa5f5d812bdfae6cf2faab9e65d884a8fb0a58452378d20b6466c6",
+      "originalPhotographSHA256": "4aa985beaafe39bda6fbb8273a1ce385d5e13823d9e3fe3883b1e9bb9de2ced9",
+      "photographSHA256": "4aa985beaafe39bda6fbb8273a1ce385d5e13823d9e3fe3883b1e9bb9de2ced9",
+      "photographBytes": 24707,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "00a2cb6dc22cc007abdf8f9ca0bf175cb66042efb5ac75574aa85a659e2b53c9",
+      "originalBytes": 44608
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002320.b3dm",
+      "bytes": 32600,
+      "sha256": "1c5b2ae8056910ffed33afce8965ef4a4bc695a2ea9ecdb24a5290bab2a07c16",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002320.obj",
+      "triangles": 29,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002320_0.jpg",
+        "sha256": "24431491b20723c090787678b2dd944405f00a1b519f240d74e49b756a5562c9",
+        "bytes": 30563,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.413052657057051e-06,
+      "originalVertexCount": 87,
+      "indexedVertexCount": 27,
+      "attributeTriangleSHA256": "bb2954c992fc21ad4785b3de16a227e08c8f0f771cff368e180fe5316eb63f89",
+      "originalPhotographSHA256": "24431491b20723c090787678b2dd944405f00a1b519f240d74e49b756a5562c9",
+      "photographSHA256": "24431491b20723c090787678b2dd944405f00a1b519f240d74e49b756a5562c9",
+      "photographBytes": 30563,
+      "photographDimensions": [
+        512,
+        512
+      ],
+      "textureRGBABytes": 1048576,
+      "originalSHA256": "849265b27101318152bb3d22bdd9c93cfe9d8b6b880a1d9fbc948ca90b5f7eec",
+      "originalBytes": 33484
+    },
+    {
+      "path": "Tile_+038_+020_L20_0002330.b3dm",
+      "bytes": 65564,
+      "sha256": "e55c6263d718194aead7cc5061ed426a692bb0618acb71e48ddd42197361a5bc",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0002330.obj",
+      "triangles": 874,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0002330_0.jpg",
+        "sha256": "473a54f144c694ecd15fe8667e872a50c4398615e3833b3dddac043f394f8d1e",
+        "bytes": 43910,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.615127827875767e-06,
+      "originalVertexCount": 2622,
+      "indexedVertexCount": 754,
+      "attributeTriangleSHA256": "a554b2d02092f19294bc96246ad7c39d7dd7bc4e5ca75c3175427e868e46b0c3",
+      "originalPhotographSHA256": "473a54f144c694ecd15fe8667e872a50c4398615e3833b3dddac043f394f8d1e",
+      "photographSHA256": "473a54f144c694ecd15fe8667e872a50c4398615e3833b3dddac043f394f8d1e",
+      "photographBytes": 43910,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "0e7e13c29ce00f460015ddf8a17851872b47db4fdadae4881edcf50f458b0496",
+      "originalBytes": 97540
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003000.b3dm",
+      "bytes": 169124,
+      "sha256": "b0357e55d3835962e7ab758962ab7a44e48ef2dfb9f92b3c1d8eca4c64945546",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003000.obj",
+      "triangles": 3506,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003000_0.jpg",
+        "sha256": "ed76273e73aebfd81290a0c17ecf7b6d3cef5014a47337914048c28bc4530752",
+        "bytes": 93696,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.812403349456872e-06,
+      "originalVertexCount": 10518,
+      "indexedVertexCount": 2653,
+      "attributeTriangleSHA256": "ebda425ad113ad576c2272cb3c507fe516737f78c83eb4b0f177d0a3fa63f16f",
+      "originalPhotographSHA256": "ed76273e73aebfd81290a0c17ecf7b6d3cef5014a47337914048c28bc4530752",
+      "photographSHA256": "ed76273e73aebfd81290a0c17ecf7b6d3cef5014a47337914048c28bc4530752",
+      "photographBytes": 93696,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "ba88295c0cb10c7aabe61897299b18b79498b6434faf195b34cdea4dfe717eb1",
+      "originalBytes": 305248
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003010.b3dm",
+      "bytes": 203956,
+      "sha256": "6750e12d0d1e2ac8240333c6db2e561652e52759bcbd977a0bc931468759192a",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003010.obj",
+      "triangles": 4126,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003010_0.jpg",
+        "sha256": "fe0f60e5b22bc5bd6b3b1a80205ed5ed3923dcde52054338c943d30a01d119f1",
+        "bytes": 115848,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.813666566543361e-06,
+      "originalVertexCount": 12378,
+      "indexedVertexCount": 3101,
+      "attributeTriangleSHA256": "c70136486a588b3eeb1e706f084957239253e617622807dade2550892f155cef",
+      "originalPhotographSHA256": "fe0f60e5b22bc5bd6b3b1a80205ed5ed3923dcde52054338c943d30a01d119f1",
+      "photographSHA256": "fe0f60e5b22bc5bd6b3b1a80205ed5ed3923dcde52054338c943d30a01d119f1",
+      "photographBytes": 115848,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "156858da23f8d2917202cd18a64e636b0bec59d6fecf3b8545b412b5af108631",
+      "originalBytes": 364600
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003020.b3dm",
+      "bytes": 117340,
+      "sha256": "2e580360a38414be05f653a1050ec8ce95ffd6eb602ac07079614ec8aa44675d",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003020.obj",
+      "triangles": 2292,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003020_0.jpg",
+        "sha256": "413ed34896e4dd65a8fd6a1de474837611ec99d73d69be69028d5f435eb5802b",
+        "bytes": 69576,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.810721636909875e-06,
+      "originalVertexCount": 6876,
+      "indexedVertexCount": 1634,
+      "attributeTriangleSHA256": "1431bb80ae4ab184628e729f545523065a2ca816cfea87f45292aa1153a1fe4b",
+      "originalPhotographSHA256": "413ed34896e4dd65a8fd6a1de474837611ec99d73d69be69028d5f435eb5802b",
+      "photographSHA256": "413ed34896e4dd65a8fd6a1de474837611ec99d73d69be69028d5f435eb5802b",
+      "photographBytes": 69576,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "937cc2c4d11491c16ea47bec9f1ef6bebe31f14fdac6afe543b3c43429b09669",
+      "originalBytes": 208284
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003030.b3dm",
+      "bytes": 93792,
+      "sha256": "0a24daf16e2fcc2cfd0a98bb087db1bade1100dc84e6d74e62e3d2dc7e2fd662",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003030.obj",
+      "triangles": 1799,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003030_0.jpg",
+        "sha256": "016e3a2ebe4b196f76e9b444fe25d0377687a16ecdc9b671f6ae32d3e83063b0",
+        "bytes": 52348,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.801028199745815e-06,
+      "originalVertexCount": 5397,
+      "indexedVertexCount": 1466,
+      "attributeTriangleSHA256": "2ac8ffa01277792f0a5680478a45105f0d9227105d879798b6c1365bada692ee",
+      "originalPhotographSHA256": "016e3a2ebe4b196f76e9b444fe25d0377687a16ecdc9b671f6ae32d3e83063b0",
+      "photographSHA256": "016e3a2ebe4b196f76e9b444fe25d0377687a16ecdc9b671f6ae32d3e83063b0",
+      "photographBytes": 52348,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "bd6c05e8be969b27a380204a495728d491632f15b00a59069efef5183bbb2bd8",
+      "originalBytes": 161472
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003100.b3dm",
+      "bytes": 201568,
+      "sha256": "b8f9717731df210cc1c17ca229deb68bb2960cd0d1003fb3d0b44302e7dc0f75",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003100.obj",
+      "triangles": 4454,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003100_0.jpg",
+        "sha256": "152e2b3c8edfade55c8d14063b23e716ec446da5895e14554f653bfbf44f767e",
+        "bytes": 106625,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.627765597817415e-06,
+      "originalVertexCount": 13362,
+      "indexedVertexCount": 3344,
+      "attributeTriangleSHA256": "aba9de6a71bb8927cb16761a8b39e6e034322ad99f6b3ea9e523fdeadc422865",
+      "originalPhotographSHA256": "152e2b3c8edfade55c8d14063b23e716ec446da5895e14554f653bfbf44f767e",
+      "photographSHA256": "152e2b3c8edfade55c8d14063b23e716ec446da5895e14554f653bfbf44f767e",
+      "photographBytes": 106625,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "3e314076c6e5de160496a52f4d8fafcd83b78f3fe1605d6cce21d79ad209c455",
+      "originalBytes": 375060
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003110.b3dm",
+      "bytes": 87388,
+      "sha256": "ff836155f5188b67c3bb5fba7c9bdd837db65ff5aa6214ab1962347665620516",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003110.obj",
+      "triangles": 1722,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003110_0.jpg",
+        "sha256": "c219248210c458be8db7099a088c29449bc9817ac2e31685b3105a5192384729",
+        "bytes": 48382,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.625667052479912e-06,
+      "originalVertexCount": 5166,
+      "indexedVertexCount": 1367,
+      "attributeTriangleSHA256": "cc0e8706376549ea755fe67aa319af6c64e955f27664768e21bb3ef24d6966ab",
+      "originalPhotographSHA256": "c219248210c458be8db7099a088c29449bc9817ac2e31685b3105a5192384729",
+      "photographSHA256": "c219248210c458be8db7099a088c29449bc9817ac2e31685b3105a5192384729",
+      "photographBytes": 48382,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "3e77086cffc29d82907ee045941938269e82cd6b778a3d5388eb263e7397cd0f",
+      "originalBytes": 152892
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003120.b3dm",
+      "bytes": 133868,
+      "sha256": "66a5b7ee01c35e7823ca6a145b6d8ea4979361e47c6374e30931ef3abaa750d2",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003120.obj",
+      "triangles": 2776,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003120_0.jpg",
+        "sha256": "7c6279bb264478984c9651411b25aac8c994bdb8af1a31303a94af9c52dfcd6a",
+        "bytes": 71758,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.625717728387826e-06,
+      "originalVertexCount": 8328,
+      "indexedVertexCount": 2206,
+      "attributeTriangleSHA256": "412279bcfc0e7a5552f2a5d119b9d5ac40457482ae61cdff5c98ae3cd641065e",
+      "originalPhotographSHA256": "7c6279bb264478984c9651411b25aac8c994bdb8af1a31303a94af9c52dfcd6a",
+      "photographSHA256": "7c6279bb264478984c9651411b25aac8c994bdb8af1a31303a94af9c52dfcd6a",
+      "photographBytes": 71758,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "b44f69374e9ed610db359432482de0522a401192ec37e66b56618dfa2b51c941",
+      "originalBytes": 239508
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003130.b3dm",
+      "bytes": 115172,
+      "sha256": "d3b93d76090140acdd9571c932abfa82dc679d9deaf651d920292c613e90a266",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003130.obj",
+      "triangles": 2326,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003130_0.jpg",
+        "sha256": "d108b6af8b23e3def014a13fde55a2d91161d7b5185d9e15aa727a51a30bfa3f",
+        "bytes": 63023,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.627964720313685e-06,
+      "originalVertexCount": 6978,
+      "indexedVertexCount": 1843,
+      "attributeTriangleSHA256": "a5e9c3b3ee2d71812a27bfb56315d914e549d4e100af4c031c2ae9dfa2c8a57d",
+      "originalPhotographSHA256": "d108b6af8b23e3def014a13fde55a2d91161d7b5185d9e15aa727a51a30bfa3f",
+      "photographSHA256": "d108b6af8b23e3def014a13fde55a2d91161d7b5185d9e15aa727a51a30bfa3f",
+      "photographBytes": 63023,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "6ef8664f28dc057103a34f623452e4a7dcfba6fb150c6aa3e6a118640d920a6f",
+      "originalBytes": 203772
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003200.b3dm",
+      "bytes": 40400,
+      "sha256": "14828517429d8bc8e9782d61f38cbd5640d81ac170d3acfa2a0904f14f47ac78",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003200.obj",
+      "triangles": 539,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003200_0.jpg",
+        "sha256": "e4c0b5fc35420ab53196920a5d4fd9cc5d14905a53f04195d84c0b7010457d84",
+        "bytes": 26179,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.8133386652816625e-06,
+      "originalVertexCount": 1617,
+      "indexedVertexCount": 483,
+      "attributeTriangleSHA256": "074f828dd0666b18bf04fc7ceca7e98e75021ba6359d43222d85f29ce866b733",
+      "originalPhotographSHA256": "e4c0b5fc35420ab53196920a5d4fd9cc5d14905a53f04195d84c0b7010457d84",
+      "photographSHA256": "e4c0b5fc35420ab53196920a5d4fd9cc5d14905a53f04195d84c0b7010457d84",
+      "photographBytes": 26179,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "3eb7c270480d5cb101a7f7fbec93cc3d3c6358516ddb25ded5e391d07be1cb81",
+      "originalBytes": 59704
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003210.b3dm",
+      "bytes": 41492,
+      "sha256": "5148120bfb595e25c71f4aad62fcecd8b8431609980b98cea4ffb945bca9f693",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003210.obj",
+      "triangles": 638,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003210_0.jpg",
+        "sha256": "1173f7bec3d7dae9106f402d3a041e8d75d6c0431f97c0f64e1a7a2a60a7baa7",
+        "bytes": 24476,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 3.811083601590326e-06,
+      "originalVertexCount": 1914,
+      "indexedVertexCount": 593,
+      "attributeTriangleSHA256": "dea219c3bc852aa91bd86e7ae7ae2b748c8130539095c0372f2cfc94631fb65f",
+      "originalPhotographSHA256": "1173f7bec3d7dae9106f402d3a041e8d75d6c0431f97c0f64e1a7a2a60a7baa7",
+      "photographSHA256": "1173f7bec3d7dae9106f402d3a041e8d75d6c0431f97c0f64e1a7a2a60a7baa7",
+      "photographBytes": 24476,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "f00e40799257e4fee0a1aa4d77ac7ee3fe8129761677f6df271265316e6cb952",
+      "originalBytes": 63944
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003220.b3dm",
+      "bytes": 93804,
+      "sha256": "28aaab5f6eed2e893a06a7cb92814e5c95a918b5eafdea4cd48fb43164d90696",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003220.obj",
+      "triangles": 1379,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003220_0.jpg",
+        "sha256": "0542f53407dd787977ffd510d8df1dcf0300611a6e82f7430832732d2fa8280d",
+        "bytes": 59676,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.620769025606933e-06,
+      "originalVertexCount": 4137,
+      "indexedVertexCount": 1226,
+      "attributeTriangleSHA256": "40194199312ee218ba0420498707ea80641813eef6266daf072b24d5847f2d4f",
+      "originalPhotographSHA256": "0542f53407dd787977ffd510d8df1dcf0300611a6e82f7430832732d2fa8280d",
+      "photographSHA256": "0542f53407dd787977ffd510d8df1dcf0300611a6e82f7430832732d2fa8280d",
+      "photographBytes": 59676,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "e9b868a61d878607582f913817b86dd20fc8af073be7eb32bab19ca2e7189e8d",
+      "originalBytes": 143604
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003230.b3dm",
+      "bytes": 85000,
+      "sha256": "3a7fd70a0709cbf02ac34e866bb08acbe110a901fdeaf498710106c5e3e7c1de",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003230.obj",
+      "triangles": 1317,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003230_0.jpg",
+        "sha256": "32da636f8e65eeb503444161d8d35fdf9906f5f38ceeb6ee821badcdaf7e510b",
+        "bytes": 53923,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.616054233494651e-06,
+      "originalVertexCount": 3951,
+      "indexedVertexCount": 1092,
+      "attributeTriangleSHA256": "64bf7100f13b1147171f7440087bc45234d1c3b8896f7244927abd57b139ffad",
+      "originalPhotographSHA256": "32da636f8e65eeb503444161d8d35fdf9906f5f38ceeb6ee821badcdaf7e510b",
+      "photographSHA256": "32da636f8e65eeb503444161d8d35fdf9906f5f38ceeb6ee821badcdaf7e510b",
+      "photographBytes": 53923,
+      "photographDimensions": [
+        1024,
+        1024
+      ],
+      "textureRGBABytes": 4194304,
+      "originalSHA256": "66c062154c7e6105210a919a99f4da2150dd3af45b312456bd3c4c3309d761c9",
+      "originalBytes": 134132
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003300.b3dm",
+      "bytes": 58724,
+      "sha256": "6c1f3957c00212469bd5a8757bf6702ba365a196436c7642941a67c3ddfb36a5",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003300.obj",
+      "triangles": 1018,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003300_0.jpg",
+        "sha256": "302e5dcc6b1ccffa6d44a83f1057d0f00d83d3180d0276f41d4099650b8af14d",
+        "bytes": 32186,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.5755596355975285e-06,
+      "originalVertexCount": 3054,
+      "indexedVertexCount": 955,
+      "attributeTriangleSHA256": "f0ae6b8e3db5459ec0597a0848129497b92f06f5cd4d05f2adbc177f3f04f143",
+      "originalPhotographSHA256": "302e5dcc6b1ccffa6d44a83f1057d0f00d83d3180d0276f41d4099650b8af14d",
+      "photographSHA256": "302e5dcc6b1ccffa6d44a83f1057d0f00d83d3180d0276f41d4099650b8af14d",
+      "photographBytes": 32186,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "42ac9714645984f56c1a356525cdfa3322920ab87c67341b037e95826bd12f00",
+      "originalBytes": 94456
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003310.b3dm",
+      "bytes": 137860,
+      "sha256": "1d0bc841bfbfdb100d15cef37f33be0254925863bdfd8a7cd351a8ea6849ced4",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003310.obj",
+      "triangles": 2649,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003310_0.jpg",
+        "sha256": "e9d69aba2836a4d0f509fdd752c44ca942242d7a2c79edca7f8ab894e94e351b",
+        "bytes": 73372,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.621118783163183e-06,
+      "originalVertexCount": 7947,
+      "indexedVertexCount": 2363,
+      "attributeTriangleSHA256": "3bb65ffea6468a462f4ca201d8c75221e98b1d2eeadd13c806e5efebb07f8b93",
+      "originalPhotographSHA256": "e9d69aba2836a4d0f509fdd752c44ca942242d7a2c79edca7f8ab894e94e351b",
+      "photographSHA256": "e9d69aba2836a4d0f509fdd752c44ca942242d7a2c79edca7f8ab894e94e351b",
+      "photographBytes": 73372,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "4301b02912e69f6f299f4e3ff9e40667ff031ecdb1666c382e68d776f24b1869",
+      "originalBytes": 233500
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003320.b3dm",
+      "bytes": 95076,
+      "sha256": "5e2fce444b12dae712c9afed8e95f7c32bcba33479f17df5954eb3938ca2109c",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003320.obj",
+      "triangles": 1812,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003320_0.jpg",
+        "sha256": "eadcafe9e2a19abab43356a173e559534d79ab40526e49ef38e9aec001cbaed8",
+        "bytes": 51131,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.629094397998415e-06,
+      "originalVertexCount": 5436,
+      "indexedVertexCount": 1587,
+      "attributeTriangleSHA256": "4037316fd1c0fd8003c243572513a781218fa86dada164385033c93c82684fbc",
+      "originalPhotographSHA256": "eadcafe9e2a19abab43356a173e559534d79ab40526e49ef38e9aec001cbaed8",
+      "photographSHA256": "eadcafe9e2a19abab43356a173e559534d79ab40526e49ef38e9aec001cbaed8",
+      "photographBytes": 51131,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "295ae90a7123230436bb2c60e277c07d42322ec782d1f872eedccb3ec3299117",
+      "originalBytes": 161040
+    },
+    {
+      "path": "Tile_+038_+020_L20_0003330.b3dm",
+      "bytes": 123940,
+      "sha256": "ed924484ad4969b08b10e6e8068adaa7ae99071b8c9dd5096214acb47bebb62c",
+      "sourceOBJ": "672497d4/Tile_+038_+020_L20_0003330.obj",
+      "triangles": 2333,
+      "photograph": {
+        "source": "Tile_+038_+020_L20_0003330_0.jpg",
+        "sha256": "fc0275a297b5a11b835793dd58d4e149845a224bb3f708f73d25f714e64a8200",
+        "bytes": 68705,
+        "dimensions": [
+          1024,
+          512
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.628376295087946e-06,
+      "originalVertexCount": 6999,
+      "indexedVertexCount": 1995,
+      "attributeTriangleSHA256": "5574b9e60ba4c14da6d1a0bc11164a1b8e784fc8ad0d6528283ad4d284a94d2d",
+      "originalPhotographSHA256": "fc0275a297b5a11b835793dd58d4e149845a224bb3f708f73d25f714e64a8200",
+      "photographSHA256": "fc0275a297b5a11b835793dd58d4e149845a224bb3f708f73d25f714e64a8200",
+      "photographBytes": 68705,
+      "photographDimensions": [
+        1024,
+        512
+      ],
+      "textureRGBABytes": 2097152,
+      "originalSHA256": "8d3c63efa0a745905aab090b7775899e18f28b5e17c3895c8bd9381c72f44eee",
+      "originalBytes": 209876
+    }
+  ],
+  "derivedFrom": "../world-helsinki-uspenski/source.json",
+  "originalTileBytes": 15896776,
+  "textureRGBABytes": 230686720,
+  "textureMaxDimension": 2048,
+  "textureResampling": "none",
+  "photographHashMeaning": "photograph.originalSHA256 identifies the archive JPEG; originalPhotographSHA256 identifies the JPEG embedded in the input B3DM. PC photograph.sha256 identifies the unchanged archive JPEG used for display."
+}

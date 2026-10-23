@@ -1,0 +1,253 @@
+{
+  "id": "world-melbourne-exhibition-3d",
+  "title": "澳大利亚 · 皇家展览馆",
+  "publisher": "City of Melbourne",
+  "sourceUrl": "https://data.melbourne.vic.gov.au/explore/dataset/city-of-melbourne-3d-textured-mesh-photomesh-2018/",
+  "archiveUrl": "https://opendatasoft-s3.s3.amazonaws.com/attachments/3DTexturedMesh/CoM_3D_Mesh_2018_OBJ.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "attribution": "© City of Melbourne · Photomesh 2018 · CC BY 4.0",
+  "captureYear": 2018,
+  "sourceCRS": "EPSG:28355+5773",
+  "sourceOrigin": [
+    319000,
+    5813000,
+    0
+  ],
+  "verticalDatum": "EGM96 orthometric height follows the actual archive metadata.xml (EPSG:28355+5773). The web catalogue instead describes AHD; this conflict is retained explicitly rather than asserting survey-grade vertical accuracy.",
+  "geoid": {
+    "url": "https://cdn.proj.org/us_nga_egm96_15.tif",
+    "sha256": "db493027562c9b004d7220fa881f5603adada4e1c5029b933fa7de4547b0e78d"
+  },
+  "conversion": "Lossless byte-identical POSITION/TEXCOORD vertex deduplication with standard glTF indices; original ordered triangles, root transforms and bounds retained. Original JPEG bytes retained; Melbourne restores the original archive JPEG including 8K where available. No quantization, decimation, texture resampling or recompression. Original model directory remains unchanged.",
+  "sourceLevel": 20,
+  "blocks": [
+    "Tile_+016_+013",
+    "Tile_+017_+013"
+  ],
+  "bounds": [
+    144.96659159170466,
+    -37.80856193453299,
+    144.97808671439435,
+    -37.80384758597198
+  ],
+  "heightRangeEllipsoidal": [
+    28.745497913099825,
+    195.9310144064948
+  ],
+  "center": [
+    144.9714,
+    -37.8047
+  ],
+  "tileCount": 4,
+  "tileBytes": 71974032,
+  "triangleCount": 967877,
+  "textureRGBABytes": 637534208,
+  "sourceFiles": [
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/metadata.xml",
+      "bytes": 299,
+      "sha256": "f922f0efd608da24c15be9abbb85234215cb131129f578eaf5a95f2f7858a27c",
+      "zipCRC32": "d05d8586"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20.obj",
+      "bytes": 42935796,
+      "sha256": "83596a8934649ab41fe92d873a66f50e3e2b1283376c53126dc8562c80058667",
+      "zipCRC32": "dfa318f6"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20.mtl",
+      "bytes": 324,
+      "sha256": "59c3fd85bad7269da4d89a0044614b0985cb1a866370a875d412ba7c74997556",
+      "zipCRC32": "32c30a87"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20_0.jpg",
+      "bytes": 18872591,
+      "sha256": "aea310773dbc2c24ed42ecbd276dd226f4ea7f110a134571e42f7b69f30c8999",
+      "zipCRC32": "9cd0d744"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20_1.jpg",
+      "bytes": 4959551,
+      "sha256": "a124d3eae77f9a27ce7f0f46a3ab2278633fc5b77b5c7e35ce590336347eb2d6",
+      "zipCRC32": "8b06414d"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20.obj",
+      "bytes": 40138420,
+      "sha256": "f02a6692924ce8ed36ada0ce04598fe3b6ba35331a430423a8d2d96ba76d672d",
+      "zipCRC32": "8ffb6fbd"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20.mtl",
+      "bytes": 324,
+      "sha256": "378d9177bc959544fa78a56a0db45e99dcc70256e4545cdd04d274a11dab7b4a",
+      "zipCRC32": "cf7d9b0e"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20_0.jpg",
+      "bytes": 19385622,
+      "sha256": "d86a86ef19ced08f1001e1b11e30fccd7ba3f1eb9491a93eee72363c5c2c0ebe",
+      "zipCRC32": "8479a6c1"
+    },
+    {
+      "path": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20_1.jpg",
+      "bytes": 2932516,
+      "sha256": "2eb8cad520241d100cf71e5583c68df8a8e93c8473e3f64a0de9d0413d7b4894",
+      "zipCRC32": "c56fd6ce"
+    }
+  ],
+  "files": [
+    {
+      "path": "Tile_+016_+013_L20_0.b3dm",
+      "bytes": 28552432,
+      "sha256": "f5126420c569314d00787b3438df382999e816d2b055e2c2cb386c7cc51d20eb",
+      "sourceMesh": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20.obj",
+      "sourceMaterial": "Tile_+016_+013_L20_0",
+      "triangles": 370225,
+      "photograph": {
+        "source": "Tile_+016_+013_L20_0.jpg",
+        "bytes": 18872591,
+        "sha256": "aea310773dbc2c24ed42ecbd276dd226f4ea7f110a134571e42f7b69f30c8999",
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "originalDimensions": [
+          8192,
+          8192
+        ],
+        "originalSHA256": "aea310773dbc2c24ed42ecbd276dd226f4ea7f110a134571e42f7b69f30c8999"
+      },
+      "maxFloat32RoundingErrorMetres": 1.52584427723923e-05,
+      "originalVertexCount": 1110675,
+      "indexedVertexCount": 261790,
+      "attributeTriangleSHA256": "35979c9dd3abb10183d2ed247474d38c72eba544bbd4d946c0c2843cdce4f11c",
+      "originalPhotographSHA256": "006b8b6a07ceaf92d05f3299cfd9d01ca458f0b780e4692c5a94703775160585",
+      "photographSHA256": "aea310773dbc2c24ed42ecbd276dd226f4ea7f110a134571e42f7b69f30c8999",
+      "photographBytes": 18872591,
+      "photographDimensions": [
+        8192,
+        8192
+      ],
+      "textureRGBABytes": 268435456,
+      "originalSHA256": "d5d1da0a7b262aad6079a168c5ab71e1c079f3869daa54156d3771df189e14ff",
+      "originalBytes": 31141580
+    },
+    {
+      "path": "Tile_+016_+013_L20_1.b3dm",
+      "bytes": 8565280,
+      "sha256": "c73fe7ad363e8b612bcb2d2615d0175fee6c25e6394a0ef2427e22d3cbc8c158",
+      "sourceMesh": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+016_+013/Tile_+016_+013_L20.obj",
+      "sourceMaterial": "Tile_+016_+013_L20_1",
+      "triangles": 130641,
+      "photograph": {
+        "source": "Tile_+016_+013_L20_1.jpg",
+        "bytes": 4959551,
+        "sha256": "a124d3eae77f9a27ce7f0f46a3ab2278633fc5b77b5c7e35ce590336347eb2d6",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "originalDimensions": [
+          4096,
+          4096
+        ],
+        "originalSHA256": "a124d3eae77f9a27ce7f0f46a3ab2278633fc5b77b5c7e35ce590336347eb2d6"
+      },
+      "maxFloat32RoundingErrorMetres": 1.5258356313552213e-05,
+      "originalVertexCount": 391923,
+      "indexedVertexCount": 101835,
+      "attributeTriangleSHA256": "d314eadc40b6008f017a313dae74c31caa031c28321d14ad0209ad981ecca167",
+      "originalPhotographSHA256": "a124d3eae77f9a27ce7f0f46a3ab2278633fc5b77b5c7e35ce590336347eb2d6",
+      "photographSHA256": "a124d3eae77f9a27ce7f0f46a3ab2278633fc5b77b5c7e35ce590336347eb2d6",
+      "photographBytes": 4959551,
+      "photographDimensions": [
+        4096,
+        4096
+      ],
+      "textureRGBABytes": 67108864,
+      "originalSHA256": "214617a2457975699fad4d918139549f452084ca07e8c7a77756bbc85c805ad9",
+      "originalBytes": 12799200
+    },
+    {
+      "path": "Tile_+017_+013_L20_0.b3dm",
+      "bytes": 29615624,
+      "sha256": "8cecb6d36b8fe720c95445d9097f782d1687cd8cc035d17e3e624792bd191cf0",
+      "sourceMesh": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20.obj",
+      "sourceMaterial": "Tile_+017_+013_L20_0",
+      "triangles": 387580,
+      "photograph": {
+        "source": "Tile_+017_+013_L20_0.jpg",
+        "bytes": 19385622,
+        "sha256": "d86a86ef19ced08f1001e1b11e30fccd7ba3f1eb9491a93eee72363c5c2c0ebe",
+        "dimensions": [
+          8192,
+          8192
+        ],
+        "originalDimensions": [
+          8192,
+          8192
+        ],
+        "originalSHA256": "d86a86ef19ced08f1001e1b11e30fccd7ba3f1eb9491a93eee72363c5c2c0ebe"
+      },
+      "maxFloat32RoundingErrorMetres": 3.0517275490637985e-05,
+      "originalVertexCount": 1162740,
+      "indexedVertexCount": 278885,
+      "attributeTriangleSHA256": "dafa1e5fe27d7bc5d39d6b3bdffc48743c6e9bc53e69ebf365eec2887fcd5e9b",
+      "originalPhotographSHA256": "1114b90b9f5f159b096b667781d7ae00961df27eb11af3d0c0dab8964292d4b6",
+      "photographSHA256": "d86a86ef19ced08f1001e1b11e30fccd7ba3f1eb9491a93eee72363c5c2c0ebe",
+      "photographBytes": 19385622,
+      "photographDimensions": [
+        8192,
+        8192
+      ],
+      "textureRGBABytes": 268435456,
+      "originalSHA256": "66b89ddd32a426168b6af1eede63d503fff46eac34011f8ad965d9281847294f",
+      "originalBytes": 32479032
+    },
+    {
+      "path": "Tile_+017_+013_L20_1.b3dm",
+      "bytes": 5240696,
+      "sha256": "7eaed2796f44c1231f4273964b9480a1ddc0d0944396fbddcdb5c5d044f1c77e",
+      "sourceMesh": "CoM_3D_Mesh_2018_OBJ/Data/Tile_+017_+013/Tile_+017_+013_L20.obj",
+      "sourceMaterial": "Tile_+017_+013_L20_1",
+      "triangles": 79431,
+      "photograph": {
+        "source": "Tile_+017_+013_L20_1.jpg",
+        "bytes": 2932516,
+        "sha256": "2eb8cad520241d100cf71e5583c68df8a8e93c8473e3f64a0de9d0413d7b4894",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "originalDimensions": [
+          4096,
+          2048
+        ],
+        "originalSHA256": "2eb8cad520241d100cf71e5583c68df8a8e93c8473e3f64a0de9d0413d7b4894"
+      },
+      "maxFloat32RoundingErrorMetres": 3.0516017659465433e-05,
+      "originalVertexCount": 238293,
+      "indexedVertexCount": 67684,
+      "attributeTriangleSHA256": "4241a233b2f319e040db5122f15b82cca7fee44011031faef570f947b9127c28",
+      "originalPhotographSHA256": "2eb8cad520241d100cf71e5583c68df8a8e93c8473e3f64a0de9d0413d7b4894",
+      "photographSHA256": "2eb8cad520241d100cf71e5583c68df8a8e93c8473e3f64a0de9d0413d7b4894",
+      "photographBytes": 2932516,
+      "photographDimensions": [
+        4096,
+        2048
+      ],
+      "textureRGBABytes": 33554432,
+      "originalSHA256": "20c4d512d7e557789f77f38a938ccdef4597e04d5364c89b0ea99f4c549a4d24",
+      "originalBytes": 7699560
+    }
+  ],
+  "derivedFrom": "../world-melbourne-exhibition/source.json",
+  "originalTileBytes": 84119372,
+  "textureMaxDimension": 8192,
+  "textureResampling": "none",
+  "photographHashMeaning": "photograph.originalSHA256 identifies the archive JPEG; originalPhotographSHA256 identifies the JPEG embedded in the input B3DM. PC photograph.sha256 identifies the unchanged archive JPEG used for display."
+}
