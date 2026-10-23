@@ -1,0 +1,301 @@
+{
+  "id": "world-lyon-cityhall-3d",
+  "title": "法国 · 里昂市政厅",
+  "kind": "reconstruction",
+  "publisher": "Métropole de Lyon; 3D Tiles conversion by VCity team, LIRIS",
+  "sourceUrl": "https://data.grandlyon.com/portail/fr/jeux-de-donnees/maquettes-3d-texturees-2018-communes-metropole-lyon/info",
+  "catalogueUrl": "https://github.com/VCityTeam/UD-Demo-vcity-py3dtilers-lyon/blob/master/doc/textured.md",
+  "archiveUrl": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tileset.json",
+  "license": "Licence Ouverte 2.0",
+  "licenseUrl": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/ETALAB-Licence-Ouverte-v2.0_EN.pdf",
+  "licenseDeclarationUrl": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/README.txt",
+  "licenseDeclarationSHA256": "f4622e744c316e2b4c34044a73dcbb4d434c6696f29ff06d23754d50256d984c",
+  "attribution": "© Métropole de Lyon 2018 · VCity / LIRIS · Licence Ouverte 2.0",
+  "captureYear": 2018,
+  "captureYearMeaning": "Grand Lyon metadata: vertical and oblique photography acquired April–July 2018, not a live scene.",
+  "sourceCRS": "EPSG:3946",
+  "verticalDatum": "NGF-IGN69 assumed from Métropole de Lyon official CC46/NGF-IGN69 topographic reference; the 2018 CityGML itself declares only horizontal EPSG:3946, not a vertical CRS. IGN RAF18 converts this assumed local orthometric height to ellipsoidal height. This is a documented datum assumption, not a survey accuracy claim.",
+  "verticalReferenceUrl": "https://data.grandlyon.com/portail/fr/jeux-de-donnees/plans-topographiques-metropole-lyon/info",
+  "geoid": {
+    "url": "https://cdn.proj.org/fr_ign_RAF18.tif",
+    "sha256": "7001e9140f266e0ddcaffa6e5c2feb77bf9444fa229cf46d1ce3172c15fec79b"
+  },
+  "conversion": "Lossless byte-identical POSITION/TEXCOORD vertex deduplication with standard glTF indices; original ordered triangles, root transforms and bounds retained. Original JPEG bytes retained; Melbourne restores the original archive JPEG including 8K where available. No quantization, decimation, texture resampling or recompression. Original model directory remains unchanged.",
+  "sourceClusters": [
+    77,
+    88,
+    89,
+    92
+  ],
+  "buildingIds": [
+    "69381AP132",
+    "69381AP133",
+    "69381AP137",
+    "69381AP138",
+    "69381AP139",
+    "69381AP140",
+    "69381AP141",
+    "69381AR158",
+    "69381AR169",
+    "69381AR58",
+    "69381AR62",
+    "69381AR63",
+    "69381AR64",
+    "69381AR66",
+    "69381AR67",
+    "69381AR70",
+    "69381AR71",
+    "69381AR72",
+    "69381AR73",
+    "69381AR76",
+    "69381AS1",
+    "69381AS10",
+    "69381AS103",
+    "69381AS104",
+    "69381AS105",
+    "69381AS107",
+    "69381AS110",
+    "69381AS111",
+    "69381AS114",
+    "69381AS118",
+    "69381AS121",
+    "69381AS13",
+    "69381AS14",
+    "69381AS15",
+    "69381AS16",
+    "69381AS17",
+    "69381AS18",
+    "69381AS19",
+    "69381AS2",
+    "69381AS3",
+    "69381AS5",
+    "69381AS6",
+    "69381AS7",
+    "69381AS77",
+    "69381AS8",
+    "69381AS9",
+    "69381AT143",
+    "69381AT63",
+    "69381AT64",
+    "69381AT65",
+    "69381AT66",
+    "69381AT67",
+    "69381AT68",
+    "69381AT69"
+  ],
+  "bounds": [
+    4.83350962526148,
+    45.76701835912025,
+    4.836984769982653,
+    45.7687799976493
+  ],
+  "heightRangeEllipsoidal": [
+    216.99699068348855,
+    269.8311789734289
+  ],
+  "center": [
+    4.83505,
+    45.7677
+  ],
+  "tileCount": 4,
+  "tileBytes": 18560384,
+  "triangleCount": 8091,
+  "sourceFiles": [
+    {
+      "path": "389.b3dm",
+      "bytes": 192504,
+      "sha256": "ba96ee3287103a1ba54b8d25d3df14b7c5b6b48150340465565c8e06b4a23b93",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/389.b3dm"
+    },
+    {
+      "path": "ATLAS_389.jpg",
+      "bytes": 3610654,
+      "sha256": "5d1686ba8ed85ba77866e59a713be3259d04869ff0fe33a87aba7f00d38a32db",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/ATLAS_389.jpg"
+    },
+    {
+      "path": "444.b3dm",
+      "bytes": 182308,
+      "sha256": "924e3c12cd16081542bc0b035cc0952ef29056680a459ffe789cdc72345f3031",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/444.b3dm"
+    },
+    {
+      "path": "ATLAS_444.jpg",
+      "bytes": 3230868,
+      "sha256": "18aad23b51c29533b09749e14929ffa11c82dfe944719c63ec6faabb0b148dbb",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/ATLAS_444.jpg"
+    },
+    {
+      "path": "449.b3dm",
+      "bytes": 329424,
+      "sha256": "cb80cd5dbf861c1e9f73b1ae0ab691f745a76e4d105282e52f087173ee3f6de0",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/449.b3dm"
+    },
+    {
+      "path": "ATLAS_449.jpg",
+      "bytes": 5864829,
+      "sha256": "d593643679d0684723984bc43134c991beb1b6ef483143be73b6c51045fd7a57",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/ATLAS_449.jpg"
+    },
+    {
+      "path": "464.b3dm",
+      "bytes": 223764,
+      "sha256": "eccf52f51bb27ab2fc20eec9aa0d7d5b3c8e496dcf88abe53f4430ded441630c",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/464.b3dm"
+    },
+    {
+      "path": "ATLAS_464.jpg",
+      "bytes": 5536278,
+      "sha256": "94b22b6bc41245f655b8024f4a738e29638715bd4179fe5ca6fcd071f1ff0c46",
+      "url": "https://dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/2018/Lyon-1_2018_Textured/tiles/ATLAS_464.jpg"
+    }
+  ],
+  "files": [
+    {
+      "path": "389.b3dm",
+      "bytes": 3673428,
+      "sha256": "c8653b34d9a640efb74afe34a642cbf4c2244da51aa2acdfc88f6ab064eaa5c3",
+      "sourceB3DM": "389.b3dm",
+      "sourceOrigin": [
+        1842626.76,
+        5175883.013,
+        194.231
+      ],
+      "triangles": 1691,
+      "photograph": {
+        "source": "ATLAS_389.jpg",
+        "sha256": "5d1686ba8ed85ba77866e59a713be3259d04869ff0fe33a87aba7f00d38a32db",
+        "bytes": 3610654,
+        "dimensions": [
+          4609,
+          4609
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.625041462233639e-06,
+      "originalVertexCount": 5073,
+      "indexedVertexCount": 2566,
+      "attributeTriangleSHA256": "7aab930ed23e5486405d9ff449e58b6534464bf05a6207ff4d76400f40f2ae8e",
+      "originalPhotographSHA256": "5d1686ba8ed85ba77866e59a713be3259d04869ff0fe33a87aba7f00d38a32db",
+      "photographSHA256": "5d1686ba8ed85ba77866e59a713be3259d04869ff0fe33a87aba7f00d38a32db",
+      "photographBytes": 3610654,
+      "photographDimensions": [
+        4609,
+        4609
+      ],
+      "textureRGBABytes": 84971524,
+      "originalSHA256": "5cdf9143afb83a76d547c8c6e8972ce3f72b4dfdc3d2f93c9bd1bd92653c8617",
+      "originalBytes": 3713272
+    },
+    {
+      "path": "444.b3dm",
+      "bytes": 3293348,
+      "sha256": "0a7c951d183dbad1a9e602aad0b13addcbdb0cd684dab1101d0b1aa0ff9785fc",
+      "sourceB3DM": "444.b3dm",
+      "sourceOrigin": [
+        1842682.476,
+        5175867.437,
+        195.199
+      ],
+      "triangles": 1590,
+      "photograph": {
+        "source": "ATLAS_444.jpg",
+        "sha256": "18aad23b51c29533b09749e14929ffa11c82dfe944719c63ec6faabb0b148dbb",
+        "bytes": 3230868,
+        "dimensions": [
+          4609,
+          4609
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 7.629271067344234e-06,
+      "originalVertexCount": 4770,
+      "indexedVertexCount": 2582,
+      "attributeTriangleSHA256": "20e990d48a5644ea088d4873cb186651e02ceb6c5995452f6fcc48783efa8603",
+      "originalPhotographSHA256": "18aad23b51c29533b09749e14929ffa11c82dfe944719c63ec6faabb0b148dbb",
+      "photographSHA256": "18aad23b51c29533b09749e14929ffa11c82dfe944719c63ec6faabb0b148dbb",
+      "photographBytes": 3230868,
+      "photographDimensions": [
+        4609,
+        4609
+      ],
+      "textureRGBABytes": 84971524,
+      "originalSHA256": "1b3f14898afecdaead43f1b2d25d495e08e1c57b9b6b9e83d76b168d65543e90",
+      "originalBytes": 3327420
+    },
+    {
+      "path": "449.b3dm",
+      "bytes": 5981812,
+      "sha256": "325c702028e76a57658d264976901fb948cda1d79cf6575cc5264aa661b48d40",
+      "sourceB3DM": "449.b3dm",
+      "sourceOrigin": [
+        1842720.092,
+        5175839.007,
+        190.698
+      ],
+      "triangles": 2854,
+      "photograph": {
+        "source": "ATLAS_449.jpg",
+        "sha256": "d593643679d0684723984bc43134c991beb1b6ef483143be73b6c51045fd7a57",
+        "bytes": 5864829,
+        "dimensions": [
+          6145,
+          6145
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.5157942982568784e-05,
+      "originalVertexCount": 8562,
+      "indexedVertexCount": 4928,
+      "attributeTriangleSHA256": "5a59dbf594ac456a3a0c53b9a2ac0142edc619440960f43fc42a2410a4aa4e8b",
+      "originalPhotographSHA256": "d593643679d0684723984bc43134c991beb1b6ef483143be73b6c51045fd7a57",
+      "photographSHA256": "d593643679d0684723984bc43134c991beb1b6ef483143be73b6c51045fd7a57",
+      "photographBytes": 5864829,
+      "photographDimensions": [
+        6145,
+        6145
+      ],
+      "textureRGBABytes": 151044100,
+      "originalSHA256": "ab0e978607023777245ebdf7cfea443586e76981a87472030473c951153e8cb2",
+      "originalBytes": 6037224
+    },
+    {
+      "path": "464.b3dm",
+      "bytes": 5611796,
+      "sha256": "11d92c7195bfafd40525721e012615dbed5fc45b2a46f5bc6c5589e9a8d2fb20",
+      "sourceB3DM": "464.b3dm",
+      "sourceOrigin": [
+        1842785.714,
+        5175850.191,
+        195.931
+      ],
+      "triangles": 1956,
+      "photograph": {
+        "source": "ATLAS_464.jpg",
+        "sha256": "94b22b6bc41245f655b8024f4a738e29638715bd4179fe5ca6fcd071f1ff0c46",
+        "bytes": 5536278,
+        "dimensions": [
+          6145,
+          6145
+        ]
+      },
+      "maxFloat32RoundingErrorMetres": 1.4598551899780432e-05,
+      "originalVertexCount": 5868,
+      "indexedVertexCount": 3124,
+      "attributeTriangleSHA256": "2a6a3dbd5c5b9d3b3e28c3d98051932ba40ea773ecca7c424af1d4bdc004f382",
+      "originalPhotographSHA256": "94b22b6bc41245f655b8024f4a738e29638715bd4179fe5ca6fcd071f1ff0c46",
+      "photographSHA256": "94b22b6bc41245f655b8024f4a738e29638715bd4179fe5ca6fcd071f1ff0c46",
+      "photographBytes": 5536278,
+      "photographDimensions": [
+        6145,
+        6145
+      ],
+      "textureRGBABytes": 151044100,
+      "originalSHA256": "f2802adfb28d322b4cafe49562cf51446373303b951257db3f8df4b0111bb019",
+      "originalBytes": 5654792
+    }
+  ],
+  "derivedFrom": "../world-lyon-cityhall/source.json",
+  "originalTileBytes": 18732708,
+  "textureRGBABytes": 472031248,
+  "textureMaxDimension": 6145,
+  "textureResampling": "none",
+  "photographHashMeaning": "photograph.originalSHA256 identifies the archive JPEG; originalPhotographSHA256 identifies the JPEG embedded in the input B3DM. PC photograph.sha256 identifies the unchanged archive JPEG used for display."
+}
