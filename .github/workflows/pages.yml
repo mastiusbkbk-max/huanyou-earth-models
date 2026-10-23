@@ -1,0 +1,53 @@
+name: Publish lossless scene assets
+
+on:
+  push:
+    branches: [codex/pc-scene-assets]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify original asset bytes and Pages limits
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          root = Path('site')
+          manifest = json.loads((root / 'asset-manifest.json').read_text())
+          assert len(manifest['directories']) == 17
+          assert len(manifest['files']) == 2567
+          for item in manifest['files']:
+              path = root / item['path']
+              assert path.is_file() and path.stat().st_size == item['bytes']
+              assert hashlib.sha256(path.read_bytes()).hexdigest() == item['sha256'], str(path)
+          files = [p for p in root.rglob('*') if p.is_file()]
+          assert all(p.stat().st_size < 100 * 1024 * 1024 for p in files)
+          assert sum(p.stat().st_size for p in files) < 1_000_000_000
+          print('Verified all 2,567 original asset files; site below 1 GB.')
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy scene assets
+        id: deployment
+        uses: actions/deploy-pages@v4
